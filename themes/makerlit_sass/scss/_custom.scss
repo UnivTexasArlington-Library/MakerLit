@@ -6,10 +6,28 @@
 	text-transform: uppercase;
 	font-size: $font-size-h1;
 }
+//PAGE TITLE
+.page-heading {
+	text-transform: uppercase;
+}
+//COURSE INFORMATION PAGE
+.node-type-course-information {
+	.bootstrap-twocol-stacked .row {
+		border:1px solid;
+		border-radius: $border-radius-large;
+		padding:2em;
+		margin-bottom:1em;
+		.field {
+			margin-bottom: 0.5em;
+		}
+	}
+}
+
 
 footer {
 	border-bottom: 1em solid $brand-success;
 	padding-bottom: 1em;
-	background-color: $gray-light;
+	background-color: $gray-lighter;
 	border-top-width:0;
+	font-size: 0.75em;
 }
