@@ -171,7 +171,7 @@
 </div>
 
 <?php if (!empty($page['footer_left']) || !empty($page['footer_right'])): ?>
-  <footer class="footer <?php print $container_class; ?>">
+  <footer class="footer container-fluid">
     <div class="col-sm-6">
       <?php print render($page['footer_left']); ?>
     </div>

@@ -1,6 +1,15 @@
+.navbar-default {
+	background-color: #fff;
 
+}
+.navbar-brand {
+	text-transform: uppercase;
+	font-size: $font-size-h1;
+}
 
 footer {
 	border-bottom: 1em solid $brand-success;
 	padding-bottom: 1em;
+	background-color: $gray-light;
+	border-top-width:0;
 }
