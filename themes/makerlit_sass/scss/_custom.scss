@@ -23,14 +23,45 @@
 .page-header {
 	text-transform: uppercase;
 	border-bottom-width: 0;
+	font-size: $font-size-h3
+}
+//HOME FEATURED
+.view-featured-courses {
+	.views-field-title {
+		padding: 1em;
+		background-color:$featured-blue;
+		h3 {
+			font-size: $font-size-base;
+			font-weight: 300;
+			text-transform: uppercase;
+			a {
+				color: #fff;
+			}
+		}
+	}
+	.featured-blue {
+		background-color: $featured-blue;
+	}
+	.featured-orange {
+		background-color: $featured-orange;
+	}
+	.featured-red {
+		background-color: $featured-red;
+	}
+	.featured-green {
+		background-color:$featured-green;
+	}
 
 }
-//PANEL TITLE
-h2.panel-title {
+
+
+
+//PANE TITLE
+h2.pane-title {
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 400;
-	font-size: $font-size-base;
+	font-size: $font-size-h4;
 }
 //COURSE INFORMATION PAGE
 .node-type-course-information {

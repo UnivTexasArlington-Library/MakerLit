@@ -6479,13 +6479,32 @@ a.icon-after .glyphicon, a .glyphicon.icon-after {
 
 .page-header {
   text-transform: uppercase;
-  border-bottom-width: 0; }
+  border-bottom-width: 0;
+  font-size: 24px; }
 
-h2.panel-title {
+.view-featured-courses .views-field-title {
+  padding: 1em;
+  background-color: blue; }
+  .view-featured-courses .views-field-title h3 {
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase; }
+    .view-featured-courses .views-field-title h3 a {
+      color: #fff; }
+.view-featured-courses .featured-blue {
+  background-color: blue; }
+.view-featured-courses .featured-orange {
+  background-color: orange; }
+.view-featured-courses .featured-red {
+  background-color: maroon; }
+.view-featured-courses .featured-green {
+  background-color: teal; }
+
+h2.pane-title {
   text-align: center;
   text-transform: uppercase;
   font-weight: 400;
-  font-size: 14px; }
+  font-size: 18px; }
 
 .node-type-course-information .bootstrap-twocol-stacked .row::nth-child(2),
 .node-type-course-information .bootstrap-twocol-stacked .row::nth-child(3) {
