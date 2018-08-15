@@ -16,13 +16,21 @@
 }
 //BREADCRUMBS
 .breadcrumb {
-	font-size: 0.5em;
+	font-size: 0.75em;
+	padding-left:0;
 }
 //PAGE TITLE
 .page-header {
 	text-transform: uppercase;
 	border-bottom-width: 0;
 
+}
+//PANEL TITLE
+h2.panel-title {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: $font-size-base;
 }
 //COURSE INFORMATION PAGE
 .node-type-course-information {
@@ -38,13 +46,22 @@
 	}
 }
 //PROJECT PERSONNEL
-.view-project-personel {
-	.caption {
-		h3 {
-			font-size: $font-size-base;
-			margin-bottom:0;
-			a {
-			}
+#views-bootstrap-thumbnail-1 {
+	.thumbnail {
+		padding:1em;
+		border-color: $gray-base;
+		&:hover, &:focus {
+			border-color:$brand-success;
+		}
+		.caption {
+			min-height: 90px;
+		}
+	}
+	h3 {
+		font-size: $font-size-base;
+		margin-bottom:0;
+		margin-top:0;
+		a {
 		}
 	}
 }
