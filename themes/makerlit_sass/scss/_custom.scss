@@ -1,18 +1,33 @@
+.region-logos {
+	float:left;
+}
 .navbar-default {
 	background-color: #fff;
 
 }
+.navbar-header {
+	text-align: center;
+	width: 100%;
+}
 .navbar-brand {
 	text-transform: uppercase;
 	font-size: $font-size-h1;
+	float: none;
+}
+//BREADCRUMBS
+.breadcrumb {
+	font-size: 0.5em;
 }
 //PAGE TITLE
-.page-heading {
+.page-header {
 	text-transform: uppercase;
+	border-bottom-width: 0;
+
 }
 //COURSE INFORMATION PAGE
 .node-type-course-information {
-	.bootstrap-twocol-stacked .row {
+	.bootstrap-twocol-stacked .row::nth-child(2),
+	.bootstrap-twocol-stacked .row::nth-child(3) {
 		border:1px solid;
 		border-radius: $border-radius-large;
 		padding:2em;
@@ -22,7 +37,17 @@
 		}
 	}
 }
-
+//PROJECT PERSONNEL
+.view-project-personel {
+	.caption {
+		h3 {
+			font-size: $font-size-base;
+			margin-bottom:0;
+			a {
+			}
+		}
+	}
+}
 
 footer {
 	border-bottom: 1em solid $brand-success;
