@@ -6484,11 +6484,13 @@ a.icon-after .glyphicon, a .glyphicon.icon-after {
 
 .view-featured-courses .views-field-title {
   padding: 1em;
-  background-color: blue; }
+  background-color: blue;
+  min-height: 7em; }
   .view-featured-courses .views-field-title h3 {
     font-size: 14px;
     font-weight: 300;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    margin: 0; }
     .view-featured-courses .views-field-title h3 a {
       color: #fff; }
 .view-featured-courses .featured-blue {
@@ -6500,11 +6502,25 @@ a.icon-after .glyphicon, a .glyphicon.icon-after {
 .view-featured-courses .featured-green {
   background-color: teal; }
 
-h2.pane-title {
-  text-align: center;
+.featured-blog .thumbnail .caption {
+  position: relative;
+  top: -250px;
+  background-color: #fff;
+  padding: 2em;
+  width: 17em; }
+  .featured-blog .thumbnail .caption h3 {
+    margin: 0;
+    font-size: 14px;
+    text-transform: uppercase; }
+    .featured-blog .thumbnail .caption h3 a {
+      color: #000; }
+
+h2 {
   text-transform: uppercase;
   font-weight: 400;
   font-size: 18px; }
+  h2 .pane-title {
+    text-align: center; }
 
 .node-type-course-information .bootstrap-twocol-stacked .row::nth-child(2),
 .node-type-course-information .bootstrap-twocol-stacked .row::nth-child(3) {

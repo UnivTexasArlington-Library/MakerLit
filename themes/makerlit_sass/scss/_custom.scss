@@ -23,17 +23,19 @@
 .page-header {
 	text-transform: uppercase;
 	border-bottom-width: 0;
-	font-size: $font-size-h3
+	font-size: $font-size-h3;
 }
 //HOME FEATURED
 .view-featured-courses {
 	.views-field-title {
 		padding: 1em;
 		background-color:$featured-blue;
+		min-height: 7em;
 		h3 {
 			font-size: $font-size-base;
 			font-weight: 300;
 			text-transform: uppercase;
+			margin:0;
 			a {
 				color: #fff;
 			}
@@ -54,14 +56,37 @@
 
 }
 
+// FEATURED Blog posts
+.featured-blog {
+	.thumbnail {
+		.caption {
+			position: relative;
+			top:-250px;
+			background-color:#fff;
+			padding:2em;
+			width:17em;
+			h3 {
+				margin:0;
+				font-size: $font-size-base;
+				text-transform: uppercase;
 
+				a{
+					color:$gray-base;
+				}
+			}
+		}
+	}
+}
 
 //PANE TITLE
-h2.pane-title {
-	text-align: center;
+h2 {
+	
 	text-transform: uppercase;
 	font-weight: 400;
 	font-size: $font-size-h4;
+	.pane-title {
+		text-align: center;
+	}
 }
 //COURSE INFORMATION PAGE
 .node-type-course-information {
