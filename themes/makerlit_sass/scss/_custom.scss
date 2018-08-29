@@ -11,8 +11,9 @@
 }
 .navbar-brand {
 	text-transform: uppercase;
-	font-size: $font-size-h1;
+	font-size: 96px;
 	float: none;
+	font-weight: 300;
 }
 //BREADCRUMBS
 .breadcrumb {
@@ -29,7 +30,6 @@
 .view-featured-courses {
 	.views-field-title {
 		padding: 1em;
-		background-color:$featured-blue;
 		min-height: 7em;
 		h3 {
 			font-size: $font-size-base;
@@ -41,46 +41,33 @@
 			}
 		}
 	}
-	.featured-blue {
-		background-color: $featured-blue;
-	}
-	.featured-orange {
-		background-color: $featured-orange;
-	}
-	.featured-red {
-		background-color: $featured-red;
-	}
-	.featured-green {
-		background-color:$featured-green;
-	}
+
 
 }
 
 // FEATURED Blog posts
 .featured-blog {
-	.thumbnail {
-		.caption {
-			position: relative;
-			top:-250px;
-			background-color:#fff;
-			padding:2em;
-			width:17em;
-			h3 {
-				margin:0;
-				font-size: $font-size-base;
-				text-transform: uppercase;
+	.caption {
+		position: relative;
+		top:-250px;
+		background-color:#fff;
+		padding:2em;
+		width:17em;
+		h3 {
+			margin:0;
+			font-size: $font-size-base;
+			text-transform: uppercase;
 
-				a{
-					color:$gray-base;
-				}
+			a{
+				color:$gray-base;
 			}
 		}
 	}
+
 }
 
 //PANE TITLE
 h2 {
-	
 	text-transform: uppercase;
 	font-weight: 400;
 	font-size: $font-size-h4;
@@ -105,9 +92,9 @@ h2 {
 #views-bootstrap-thumbnail-1 {
 	.thumbnail {
 		padding:1em;
-		border-color: $gray-base;
+		border-color: transparent;
 		&:hover, &:focus {
-			border-color:$brand-success;
+			border-color:$brand-primary;
 		}
 		.caption {
 			min-height: 90px;
@@ -123,9 +110,8 @@ h2 {
 }
 
 footer {
-	border-bottom: 1em solid $brand-success;
 	padding-bottom: 1em;
-	background-color: $gray-lighter;
+	background-color: $brand-primary;
 	border-top-width:0;
 	font-size: 0.75em;
 }
