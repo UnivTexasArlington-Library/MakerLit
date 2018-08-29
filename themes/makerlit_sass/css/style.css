@@ -6470,18 +6470,36 @@ a.icon-after .glyphicon, a .glyphicon.icon-after {
 
 .navbar-brand {
   text-transform: uppercase;
-  font-size: 96px;
+  font-size: 71.5px;
   float: none;
   font-weight: 300; }
+  .navbar-brand a {
+    color: #424242; }
 
-.breadcrumb {
-  font-size: 0.75em;
-  padding-left: 0; }
+.sf-menu {
+  width: 100%; }
+  .sf-menu li {
+    font-size: 25px;
+    float: none;
+    display: table-cell;
+    width: 1%; }
+    .sf-menu li a {
+      color: #424242;
+      /*margin-bottom: 0;*/
+      text-align: center; }
+      .sf-menu li a:hover, .sf-menu li a:focus {
+        text-decoration: none;
+        font-weight: 400; }
+  .sf-menu li.sf-depth-1 {
+    text-transform: uppercase;
+    font-weight: 300; }
 
-.page-header {
-  text-transform: uppercase;
-  border-bottom-width: 0;
-  font-size: 24px; }
+.carousel-caption {
+  color: #424242; }
+  .carousel-caption h3 {
+    font-weight: 300;
+    font-size: 25.5px;
+    text-transform: uppercase; }
 
 .view-featured-courses .views-field-title {
   padding: 1em;
@@ -6506,6 +6524,15 @@ a.icon-after .glyphicon, a .glyphicon.icon-after {
     text-transform: uppercase; }
     .featured-blog .caption h3 a {
       color: #000; }
+
+.breadcrumb {
+  font-size: 0.75em;
+  padding-left: 0; }
+
+.page-header {
+  text-transform: uppercase;
+  border-bottom-width: 0;
+  font-size: 24px; }
 
 h2 {
   text-transform: uppercase;
