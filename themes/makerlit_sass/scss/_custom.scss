@@ -10,8 +10,9 @@
 }
 .logo img{
 	vertical-align: bottom;
+	height: 100px;
 }
-.navbar-brand {
+.name {
 	text-transform: uppercase;
 	font-size: 71.5px;
 	float: none;
@@ -40,6 +41,9 @@
 	li.sf-depth-1 {
 		text-transform: uppercase;
 		font-weight: 300;
+	}
+	.sf-item-7 a {
+	
 	}
 }
 //HOME
@@ -114,6 +118,7 @@
 .breadcrumb {
 	font-size: 0.75em;
 	padding-left:0;
+	text-transform: lowercase;
 }
 //PAGE TITLE
 .page-header {

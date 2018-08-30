@@ -6469,9 +6469,10 @@ a.icon-after .glyphicon, a .glyphicon.icon-after {
   width: 100%; }
 
 .logo img {
-  vertical-align: bottom; }
+  vertical-align: bottom;
+  height: 100px; }
 
-.navbar-brand {
+.name {
   text-transform: uppercase;
   font-size: 71.5px;
   float: none;
@@ -6543,7 +6544,8 @@ a.icon-after .glyphicon, a .glyphicon.icon-after {
 
 .breadcrumb {
   font-size: 0.75em;
-  padding-left: 0; }
+  padding-left: 0;
+  text-transform: lowercase; }
 
 .page-header {
   text-transform: uppercase;
