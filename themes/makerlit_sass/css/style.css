@@ -6458,11 +6458,19 @@ a.icon-after .glyphicon, a .glyphicon.icon-after {
   margin-left: .25em;
   margin-right: -.25em; }
 
+h2 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 40.5px; }
+
 .region-logos {
   float: left; }
 
 .navbar-default {
-  background-color: #fff; }
+  background-color: #fff;
+  color: #424242; }
+  .navbar-default:hover, .navbar-default:focus {
+    color: #424242; }
 
 .navbar-header {
   text-align: center;
@@ -6505,29 +6513,24 @@ a.icon-after .glyphicon, a .glyphicon.icon-after {
     font-size: 25.5px;
     text-transform: uppercase; }
 
-.featured-quote {
+.featured-blue {
   background-color: rgba(177, 201, 202, 0.37);
-  padding-top: 3em;
-  padding-bottom: 3em; }
-  .featured-quote img {
+  padding: 3em 1em; }
+  .featured-blue img {
     border-radius: 50%; }
-  .featured-quote .quote-text {
+  .featured-blue .quote-text {
     font-family: "Playfair Display", "Times New Roman", Times, serif;
     font-size: 30.45px; }
-  .featured-quote .quote-author {
+  .featured-blue .quote-author {
     font-size: 25px;
     color: #000000; }
 
-.view-featured-courses .views-field-title {
-  padding: 1em;
-  min-height: 7em; }
-  .view-featured-courses .views-field-title h3 {
-    font-size: 14px;
-    font-weight: 300;
-    text-transform: uppercase;
-    margin: 0; }
-    .view-featured-courses .views-field-title h3 a {
-      color: #fff; }
+.featured-grey {
+  background-color: #f4f4f4;
+  padding: 3em 1em; }
+
+.featured-lessons-title .pane-title, .featured-lessons-title .pane-content {
+  display: inline-block; }
 
 .featured-blog .caption {
   position: relative;
@@ -6551,13 +6554,6 @@ a.icon-after .glyphicon, a .glyphicon.icon-after {
   text-transform: uppercase;
   border-bottom-width: 0;
   font-size: 24px; }
-
-h2 {
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: 18px; }
-  h2 .pane-title {
-    text-align: center; }
 
 .node-type-course-information .bootstrap-twocol-stacked .row::nth-child(2),
 .node-type-course-information .bootstrap-twocol-stacked .row::nth-child(3) {

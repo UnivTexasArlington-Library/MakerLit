@@ -75,7 +75,7 @@
  */
 ?>
 <header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
-  <div class="<?php print $container_class; ?>">
+  <div class="container-fluid">
     <?php if (!empty($page['logos'])): ?>
         <div class=""><?php print render($page['logos']); ?></div>
       <?php endif; ?>
@@ -89,8 +89,8 @@
       <?php if (!empty($site_name)): ?>
         <a class="name navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
       <?php endif; ?>
-</div>
-<div>
+  </div>
+  <div>
       <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
           <span class="sr-only"><?php print t('Toggle navigation'); ?></span>

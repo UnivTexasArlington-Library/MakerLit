@@ -1,8 +1,18 @@
+h2 {
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 40.5px;
+}
+
 .region-logos {
 	float:left;
 }
 .navbar-default {
 	background-color: #fff;
+	color:$text-color;
+	&:hover, &:focus {
+		color:$text-color;
+	}
 }
 .navbar-header {
 	text-align: center;
@@ -47,7 +57,7 @@
 	}
 }
 //HOME
-// CAROUSEL
+// HERO
 .carousel-caption {
 	color:$text-color;
 	h3 {
@@ -58,11 +68,10 @@
 }
 
 //FEATURED
-//QUOTE 
-.featured-quote{
+//FEATURED BLUE
+.featured-blue{
 	background-color: rgba(177,201,202,0.37);
-	padding-top:3em;
-	padding-bottom: 3em;
+	padding:3em 1em;
 	img {
 		border-radius:50%;
 	}
@@ -75,23 +84,20 @@
 		color:#000000;
 	}
 }
-//COURSES
-.view-featured-courses {
-	.views-field-title {
-		padding: 1em;
-		min-height: 7em;
-		h3 {
-			font-size: $font-size-base;
-			font-weight: 300;
-			text-transform: uppercase;
-			margin:0;
-			a {
-				color: #fff;
-			}
-		}
+//FEATURED GREY
+.featured-grey {
+	background-color: $brand-info;
+	padding:3em 1em;
+}
+
+
+//FEATURED LESSONS
+.featured-lessons-title {
+	.pane-title, .pane-content {
+		display: inline-block;
 	}
-
-
+}
+.view-featured-courses {
 }
 
 // FEATURED Blog posts
@@ -126,15 +132,8 @@
 	border-bottom-width: 0;
 	font-size: $font-size-h3;
 }
-//PANE TITLE
-h2 {
-	text-transform: uppercase;
-	font-weight: 400;
-	font-size: $font-size-h4;
-	.pane-title {
-		text-align: center;
-	}
-}
+
+
 //COURSE INFORMATION PAGE
 .node-type-course-information {
 	.bootstrap-twocol-stacked .row::nth-child(2),
