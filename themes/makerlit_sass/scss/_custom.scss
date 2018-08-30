@@ -7,13 +7,6 @@ h2 {
 .region-logos {
 	float:left;
 }
-.navbar-default {
-	background-color: #fff;
-	color:$text-color;
-	&:hover, &:focus {
-		color:$text-color;
-	}
-}
 .navbar-header {
 	text-align: center;
 	width: 100%;
@@ -22,13 +15,14 @@ h2 {
 	vertical-align: bottom;
 	height: 100px;
 }
-.name {
+.name.navbar-brand {
 	text-transform: uppercase;
 	font-size: 71.5px;
 	float: none;
 	font-weight: 300;
 	color:$text-color;
 	vertical-align: 112%;
+
 }
 // MAIN MENU
 .sf-menu {

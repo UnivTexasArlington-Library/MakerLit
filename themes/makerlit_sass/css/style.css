@@ -3963,7 +3963,7 @@ tbody.collapse.in {
       color: #93b4b5;
       background-color: transparent; }
   .navbar-default .navbar-text {
-    color: #b1c9ca; }
+    color: #424242; }
   .navbar-default .navbar-nav > li > a {
     color: #b1c9ca; }
     .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
@@ -6466,12 +6466,6 @@ h2 {
 .region-logos {
   float: left; }
 
-.navbar-default {
-  background-color: #fff;
-  color: #424242; }
-  .navbar-default:hover, .navbar-default:focus {
-    color: #424242; }
-
 .navbar-header {
   text-align: center;
   width: 100%; }
@@ -6480,7 +6474,7 @@ h2 {
   vertical-align: bottom;
   height: 100px; }
 
-.name {
+.name.navbar-brand {
   text-transform: uppercase;
   font-size: 71.5px;
   float: none;
