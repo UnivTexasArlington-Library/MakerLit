@@ -9,8 +9,9 @@ php = 5.3.0
 ;; Regions
 ;;;;;;;;;;;;;;;;;;;;;
 
-regions[logos]			= 'University Logos'
+regions[logos_uta]		= 'University Logos'
 regions[navigation]     = 'Navigation'
+regions[logos_fb]		= 'FabLab Logo'
 regions[header]         = 'Top Bar'
 regions[highlighted]    = 'Highlighted'
 regions[help]           = 'Help'

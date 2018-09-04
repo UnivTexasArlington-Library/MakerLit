@@ -75,11 +75,11 @@
  */
 ?>
 <header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
-  <div class="container-fluid">
-    <?php if (!empty($page['logos'])): ?>
-        <div class=""><?php print render($page['logos']); ?></div>
+  <div>
+    <?php if (!empty($page['logos_uta'])): ?>
+        <div class="col-sm-2"><?php print render($page['logos']); ?></div>
       <?php endif; ?>
-    <div class="navbar-header">
+    <div class=" col-sm-10 navbar-header">
       <?php if ($logo): ?>
         <a class="logo navbar-btn" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
           <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
@@ -90,6 +90,9 @@
         <a class="name navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
       <?php endif; ?>
   </div>
+  <?php if (!empty($page['logos_fb'])): ?>
+        <div class="col-sm-2"><?php print render($page['logos']); ?></div>
+      <?php endif; ?>
   <div>
       <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
