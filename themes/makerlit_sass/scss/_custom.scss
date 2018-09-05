@@ -1,31 +1,45 @@
 .container-fluid {
-	/*padding-left:0;*/
+	padding-left:0;
 	padding-right:0;
+}
+h1 {
+	text-transform: uppercase;
+	font-weight: $font-regular;
 }
 h2 {
 	text-transform: uppercase;
-	font-weight: 400;
-	font-size: 40.5px;
+	font-weight: $font-regular;
 }
 
-.region-logos {
+//HELPER CLASSES
+.inline {
+	display: inline-block;
+}
+.inline-link {
+	font-size: 1.5em;
+	margin-left:1em;
+}
+//HEADER
+.region-logos-uta {
 	float:left;
 }
-.navbar-header {
-	text-align: center;
-	width: 100%;
+.region-logos-fb {
+	float:right;
 }
-.logo img{
-	vertical-align: bottom;
-	height: 100px;
+.region-logo-uta, .region-logo-fb {
+	img{
+		vertical-align: bottom;
+		height: 100px;
+	}
 }
-.name.navbar-brand {
+.name {
 	text-transform: uppercase;
 	font-size: 71.5px;
 	float: none;
-	font-weight: 300;
+	font-weight: $font-light;
 	color:$text-color;
 	vertical-align: 112%;
+	text-align: center;
 
 }
 // MAIN MENU
@@ -95,7 +109,7 @@ h2 {
 //FEATURED BLUE
 .featured-blue{
 	background-color: rgba(177,201,202,0.37);
-	padding:3em 1em;
+	padding:2em 0;
 	img {
 		border-radius:50%;
 		margin-top:2em;
@@ -104,10 +118,10 @@ h2 {
 	}
 	.quote-text {
 		font-family:$font-family-serif;
-		font-size:30.45px;
+		font-size:30px;
 	}
 	.quote-author {
-		font-size: 25px;
+		font-size: 27px;
 		color:#000000;
 	}
 	.carousel-control {
@@ -118,7 +132,7 @@ h2 {
 //FEATURED GREY
 .featured-grey {
 	background-color: $brand-info;
-	padding:3em 1em;
+	padding:2em 0;
 }
 
 

@@ -58,16 +58,19 @@ $font-family-serif:       'Playfair Display', "Times New Roman", Times, serif !d
 $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
 $font-family-base:        $font-family-sans-serif !default;
 
-$font-size-base:          14px !default;
+$font-size-base:          20px !default;
 $font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
 $font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12px
 
-$font-size-h1:            floor(($font-size-base * 2.6)) !default; // ~36px
-$font-size-h2:            floor(($font-size-base * 2.15)) !default; // ~30px
-$font-size-h3:            ceil(($font-size-base * 1.7)) !default; // ~24px
-$font-size-h4:            ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-h1:            floor(($font-size-base * 2.0)) !default; // ~40px
+$font-size-h2:            floor(($font-size-base * 2.0)) !default; // ~40px
+$font-size-h3:            ceil(($font-size-base * 1)) !default; // ~20px
+$font-size-h4:            ceil(($font-size-base * 1)) !default; // ~20px
 $font-size-h5:            $font-size-base !default;
 $font-size-h6:            ceil(($font-size-base * 0.85)) !default; // ~12px
+
+$font-light:				300 !default;
+$font-regular:				400 !default;
 
 //** Unit-less `line-height` for use in components like buttons.
 $line-height-base:        1.428571429 !default; // 20/14
@@ -76,7 +79,7 @@ $line-height-computed:    floor(($font-size-base * $line-height-base)) !default;
 
 //** By default, this inherits from the `<body>`.
 $headings-font-family:    inherit !default;
-$headings-font-weight:    600 !default;
+$headings-font-weight:    400 !default;
 $headings-line-height:    1.1 !default;
 $headings-color:          inherit !default;
 
@@ -156,7 +159,7 @@ $table-border-color:            #ddd !default;
 //
 //## For each of Bootstrap's buttons, define text, background and border color.
 
-$btn-font-weight:                normal !default;
+$btn-font-weight:                300 !default;
 
 $btn-default-color:              #333 !default;
 $btn-default-bg:                 #fff !default;
@@ -185,7 +188,7 @@ $btn-danger-border:              darken($btn-danger-bg, 5%) !default;
 $btn-link-disabled-color:        $gray-light !default;
 
 // Allows for customizing button radius independently from global border radius
-$btn-border-radius-base:         $border-radius-base !default;
+$btn-border-radius-base:         0 !default;
 $btn-border-radius-large:        $border-radius-large !default;
 $btn-border-radius-small:        $border-radius-small !default;
 
