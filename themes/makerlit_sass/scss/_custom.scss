@@ -26,12 +26,11 @@ h2 {
 .region-logos-fb {
 	float:right;
 }
-.region-logo-uta, .region-logo-fb {
-	img{
-		vertical-align: bottom;
-		height: 100px;
-	}
+.logo img{
+	vertical-align: bottom;
+	height: 100px;
 }
+
 .name {
 	text-transform: uppercase;
 	font-size: 71.5px;
@@ -43,10 +42,10 @@ h2 {
 
 }
 // MAIN MENU
-.sf-menu {
-	width: 100%;
+#block-superfish-1 {
+	margin-bottom:2em;
 	li {
-		font-size: 25px;
+		font-size: 1.25em;
 		float:none;
 		display: table-cell;
 		width: 1%;
@@ -56,13 +55,16 @@ h2 {
 			text-align: center;
 			&:hover, &:focus {
 				text-decoration: none;
-				font-weight:400;
 			}
 		}
 	}
-	li.sf-depth-1 {
+	.sf-depth-1 {
 		text-transform: uppercase;
-		font-weight: 300;
+		font-weight: $font-light;
+	}
+	.sf-depth-2 {
+		text-transform: capitalize;
+		font-weight: $font-regular
 	}
 	.sf-item-7 a {
 	

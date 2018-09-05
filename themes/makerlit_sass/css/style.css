@@ -6483,7 +6483,7 @@ h2 {
 .region-logos-fb {
   float: right; }
 
-.region-logo-uta img, .region-logo-fb img {
+.logo img {
   vertical-align: bottom;
   height: 100px; }
 
@@ -6496,23 +6496,25 @@ h2 {
   vertical-align: 112%;
   text-align: center; }
 
-.sf-menu {
-  width: 100%; }
-  .sf-menu li {
-    font-size: 25px;
+#block-superfish-1 {
+  margin-bottom: 2em; }
+  #block-superfish-1 li {
+    font-size: 1.25em;
     float: none;
     display: table-cell;
     width: 1%; }
-    .sf-menu li a {
+    #block-superfish-1 li a {
       color: #424242;
       /*margin-bottom: 0;*/
       text-align: center; }
-      .sf-menu li a:hover, .sf-menu li a:focus {
-        text-decoration: none;
-        font-weight: 400; }
-  .sf-menu li.sf-depth-1 {
+      #block-superfish-1 li a:hover, #block-superfish-1 li a:focus {
+        text-decoration: none; }
+  #block-superfish-1 .sf-depth-1 {
     text-transform: uppercase;
     font-weight: 300; }
+  #block-superfish-1 .sf-depth-2 {
+    text-transform: capitalize;
+    font-weight: 400; }
 
 .panels-flexible-homepage_layout .panels-flexible-row {
   padding-bottom: 2em; }
