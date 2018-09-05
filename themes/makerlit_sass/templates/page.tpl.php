@@ -81,7 +81,7 @@
       <?php print render($page['logos_uta']); ?>
     </div>
       <?php endif; ?>
-    <div class=" col-sm-8">
+    <div class=" col-sm-8 navbar">
         <?php if ($logo): ?>
       <a class="logo navbar-btn" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
         <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />

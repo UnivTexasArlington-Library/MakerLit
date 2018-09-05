@@ -1,6 +1,10 @@
+
 .container-fluid {
 	padding-left:0;
 	padding-right:0;
+}
+body {
+	font-weight: $font-light;
 }
 h1 {
 	text-transform: uppercase;
@@ -26,21 +30,24 @@ h2 {
 .region-logos-fb {
 	float:right;
 }
-.logo img{
-	vertical-align: bottom;
-	height: 100px;
-}
 
-.name {
-	text-transform: uppercase;
-	font-size: 71.5px;
-	float: none;
-	font-weight: $font-light;
-	color:$text-color;
-	vertical-align: 112%;
+.navbar {
 	text-align: center;
-
+	.logo img{
+		vertical-align: bottom;
+		height: 100px;
+	}
+	
+	.name {
+		text-transform: uppercase;
+		font-size: 3.6em;
+		float: none;
+		font-weight: $font-light;
+		color:$text-color;
+		vertical-align: 50%;
+	}
 }
+
 // MAIN MENU
 #block-superfish-1 {
 	margin-bottom:2em;
@@ -62,9 +69,15 @@ h2 {
 		text-transform: uppercase;
 		font-weight: $font-light;
 	}
+	ul {
+		background-color: #fff;
+		padding:1em;
+		top:0;
+	}
 	.sf-depth-2 {
 		text-transform: capitalize;
-		font-weight: $font-regular
+		font-weight: $font-regular;
+		font-size:1.25em;
 	}
 	.sf-item-7 a {
 	
@@ -191,15 +204,14 @@ h2 {
 }
 //BREADCRUMBS
 .breadcrumb {
-	font-size: 0.75em;
+	font-size: 0.9em;
 	padding-left:0;
 	text-transform: lowercase;
+	font-weight: $font-light;
 }
 //PAGE TITLE
 .page-header {
-	text-transform: uppercase;
 	border-bottom-width: 0;
-	font-size: $font-size-h3;
 }
 
 
