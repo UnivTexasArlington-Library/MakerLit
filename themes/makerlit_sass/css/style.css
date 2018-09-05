@@ -6458,6 +6458,10 @@ a.icon-after .glyphicon, a .glyphicon.icon-after {
   margin-left: .25em;
   margin-right: -.25em; }
 
+.container-fluid {
+  /*padding-left:0;*/
+  padding-right: 0; }
+
 h2 {
   text-transform: uppercase;
   font-weight: 400;
@@ -6500,24 +6504,52 @@ h2 {
     text-transform: uppercase;
     font-weight: 300; }
 
+.panels-flexible-homepage_layout .panels-flexible-row {
+  padding-bottom: 2em; }
+
+.carousel-inner img {
+  width: 100% !important;
+  height: auto !important; }
+
 .carousel-caption {
-  color: #424242; }
+  background-color: rgba(255, 255, 255, 0.83);
+  color: #424242;
+  text-shadow: none;
+  font-weight: 300;
+  top: 30%;
+  left: 30%;
+  right: 30%;
+  bottom: auto; }
   .carousel-caption h3 {
-    font-weight: 300;
     font-size: 25.5px;
     text-transform: uppercase; }
+  .carousel-caption p {
+    padding: 1em;
+    font-size: 25px;
+    text-align: left; }
+
+.carousel-caption-button {
+  position: absolute;
+  left: 50%;
+  bottom: 18%;
+  z-index: 10; }
 
 .featured-blue {
   background-color: rgba(177, 201, 202, 0.37);
   padding: 3em 1em; }
   .featured-blue img {
-    border-radius: 50%; }
+    border-radius: 50%;
+    margin-top: 2em;
+    margin-right: 2em;
+    float: right; }
   .featured-blue .quote-text {
     font-family: "Playfair Display", "Times New Roman", Times, serif;
     font-size: 30.45px; }
   .featured-blue .quote-author {
     font-size: 25px;
     color: #000000; }
+  .featured-blue .carousel-control {
+    width: 5%; }
 
 .featured-grey {
   background-color: #f4f4f4;
@@ -6525,6 +6557,22 @@ h2 {
 
 .featured-lessons-title .pane-title, .featured-lessons-title .pane-content {
   display: inline-block; }
+
+.views-bootstrap-grid-1 .views-field-field-image .overlay {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 15px;
+  left: 15px;
+  height: 100%;
+  padding: 2em 1em;
+  background-color: rgba(177, 201, 202, 0.93);
+  font-weight: 300;
+  font-size: 27px; }
+  .views-bootstrap-grid-1 .views-field-field-image .overlay .label {
+    font-weight: 400; }
+.views-bootstrap-grid-1 .views-field-field-image:hover .overlay, .views-bootstrap-grid-1 .views-field-field-image:focus .overlay {
+  display: block; }
 
 .featured-blog .caption {
   position: relative;
@@ -6570,6 +6618,18 @@ h2 {
   font-size: 14px;
   margin-bottom: 0;
   margin-top: 0; }
+
+#partners {
+  margin-top: 2em;
+  margin-bottom: 2em; }
+  #partners .partner-uta {
+    background-color: #f4f4f4;
+    border: 1px solid #0064b1;
+    padding: 10px;
+    height: 85px;
+    width: 260px; }
+  #partners img:hover, #partners img:focus {
+    background-color: #eeeeee; }
 
 footer {
   padding-bottom: 1em;

@@ -77,7 +77,7 @@
 <header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
   <div>
     <?php if (!empty($page['logos_uta'])): ?>
-        <div class="col-sm-2"><?php print render($page['logos']); ?></div>
+        <div class="col-sm-2"><?php print render($page['logos_uta']); ?></div>
       <?php endif; ?>
     <div class=" col-sm-10 navbar-header">
       <?php if ($logo): ?>
@@ -91,7 +91,7 @@
       <?php endif; ?>
   </div>
   <?php if (!empty($page['logos_fb'])): ?>
-        <div class="col-sm-2"><?php print render($page['logos']); ?></div>
+        <div class="col-sm-2"><?php print render($page['logos_fb']); ?></div>
       <?php endif; ?>
   <div>
       <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>

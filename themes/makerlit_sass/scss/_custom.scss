@@ -1,3 +1,7 @@
+.container-fluid {
+	/*padding-left:0;*/
+	padding-right:0;
+}
 h2 {
 	text-transform: uppercase;
 	font-weight: 400;
@@ -51,16 +55,42 @@ h2 {
 	}
 }
 //HOME
+.panels-flexible-homepage_layout {
+	.panels-flexible-row {
+		padding-bottom:2em;
+	}
+
+}
 // HERO
+.carousel-inner img {
+	width: 100% !important;
+	height: auto !important;
+}
 .carousel-caption {
+	background-color: rgba(255,255,255,0.83);
 	color:$text-color;
+	text-shadow:none;
+	font-weight: 300;
+	top:30%;
+	left:30%;
+	right:30%;
+	bottom:auto;
 	h3 {
-		font-weight: 300;
 		font-size:25.5px;
 		text-transform: uppercase;
 	}
+	p {
+		padding:1em;
+		font-size: 25px;
+		text-align: left;
+	}
 }
-
+.carousel-caption-button {
+	position: absolute;
+	left:50%;
+	bottom: 18%;
+	z-index: 10;
+}
 //FEATURED
 //FEATURED BLUE
 .featured-blue{
@@ -68,6 +98,9 @@ h2 {
 	padding:3em 1em;
 	img {
 		border-radius:50%;
+		margin-top:2em;
+		margin-right: 2em;
+		float:right;
 	}
 	.quote-text {
 		font-family:$font-family-serif;
@@ -76,6 +109,10 @@ h2 {
 	.quote-author {
 		font-size: 25px;
 		color:#000000;
+	}
+	.carousel-control {
+		width:5%;
+
 	}
 }
 //FEATURED GREY
@@ -91,7 +128,29 @@ h2 {
 		display: inline-block;
 	}
 }
-.view-featured-courses {
+.views-bootstrap-grid-1 {
+	.views-field-field-image {
+		.overlay {
+			display: none;
+			position: absolute;
+			top:0;
+			right:15px;
+			left:15px;
+			height: 100%;
+			padding:2em 1em;
+			background-color: rgba(177,201,202,0.93);
+			font-weight: 300;
+			font-size: 27px;
+			.label {
+				font-weight: 400;
+			}
+		}
+		&:hover, &:focus {
+			.overlay {
+				display:block;
+			}
+		}
+	}
 }
 
 // FEATURED Blog posts
@@ -161,7 +220,23 @@ h2 {
 		}
 	}
 }
-
+// PARTNERS inline-block
+#partners {
+	margin-top:2em;
+	margin-bottom:2em;
+	.partner-uta {
+		background-color: $brand-info;
+		border:1px solid #0064b1;
+		padding:10px;
+		height: 85px;
+		width: 260px;
+	}
+	img {
+		&:hover, &:focus {
+			background-color: lighten($gray-base, 93.5%);
+		}
+	}
+}
 footer {
 	padding-bottom: 1em;
 	background-color: $brand-primary;
