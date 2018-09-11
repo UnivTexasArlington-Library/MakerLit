@@ -6517,15 +6517,25 @@ h2 {
     font-weight: 300; }
   #block-superfish-1 ul {
     background-color: #fff;
-    padding: 1em;
-    top: 0; }
+    padding: 1em; }
   #block-superfish-1 .sf-depth-2 {
     text-transform: capitalize;
     font-weight: 400;
-    font-size: 1.25em; }
+    font-size: 25px; }
+  #block-superfish-1 li.menu-503-1 {
+    /* Project Personel Link*/ }
+  #block-superfish-1 li.menu-469-1 {
+    /* Blog */ }
+  #block-superfish-1 li.menu-504-1 {
+    /* Search */ }
 
 .panels-flexible-homepage_layout .panels-flexible-row {
   padding-bottom: 2em; }
+
+.panels-flexible-region-homepage_layout-hero,
+.featured-blue,
+.featured-grey {
+  width: 100%; }
 
 .carousel-inner img {
   width: 100% !important;
@@ -6536,9 +6546,9 @@ h2 {
   color: #424242;
   text-shadow: none;
   font-weight: 300;
-  top: 30%;
-  left: 30%;
-  right: 30%;
+  top: 15%;
+  left: 15%;
+  right: 15%;
   bottom: auto; }
   .carousel-caption h3 {
     font-size: 25.5px;
@@ -6550,13 +6560,14 @@ h2 {
 
 .carousel-caption-button {
   position: absolute;
-  left: 50%;
-  bottom: 18%;
-  z-index: 10; }
+  left: 15%;
+  right: 15%;
+  bottom: 15%; }
 
 .featured-blue {
-  background-color: rgba(177, 201, 202, 0.37);
-  padding: 2em 0; }
+  background-color: rgba(177, 201, 202, 0.37); }
+  .featured-blue .quote-row {
+    margin: 2em 0; }
   .featured-blue img {
     border-radius: 50%;
     margin-top: 2em;
@@ -6567,13 +6578,16 @@ h2 {
     font-size: 30px; }
   .featured-blue .quote-author {
     font-size: 27px;
-    color: #000000; }
+    color: #000000;
+    float: right; }
   .featured-blue .carousel-control {
     width: 5%; }
 
 .featured-grey {
   background-color: #f4f4f4;
-  padding: 2em 0; }
+  padding-top: 2em; }
+  .featured-grey p:last-child {
+    margin-bottom: 2em; }
 
 .featured-lessons-title .pane-title, .featured-lessons-title .pane-content {
   display: inline-block; }
@@ -6647,13 +6661,16 @@ h2 {
     padding: 10px;
     height: 85px;
     width: 260px; }
-  #partners img:hover, #partners img:focus {
-    background-color: #eeeeee; }
+  #partners img {
+    height: 50px;
+    width: auto; }
+    #partners img:hover, #partners img:focus {
+      background-color: #eeeeee; }
 
 footer {
   padding-bottom: 1em;
   background-color: #b1c9ca;
   border-top-width: 0;
-  font-size: 0.75em; }
+  font-size: 0.9em; }
 
 /*# sourceMappingURL=style.css.map */

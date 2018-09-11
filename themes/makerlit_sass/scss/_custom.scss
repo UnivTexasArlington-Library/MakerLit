@@ -72,15 +72,20 @@ h2 {
 	ul {
 		background-color: #fff;
 		padding:1em;
-		top:0;
 	}
 	.sf-depth-2 {
 		text-transform: capitalize;
 		font-weight: $font-regular;
-		font-size:1.25em;
+		font-size: 25px;
 	}
-	.sf-item-7 a {
-	
+	li.menu-503-1 { /* Project Personel Link*/
+		
+	}
+	li.menu-469-1 { /* Blog */
+
+	}
+	li.menu-504-1 { /* Search */
+
 	}
 }
 //HOME
@@ -91,6 +96,11 @@ h2 {
 
 }
 // HERO
+.panels-flexible-region-homepage_layout-hero,
+.featured-blue,
+.featured-grey {
+	width: 100%;
+}
 .carousel-inner img {
 	width: 100% !important;
 	height: auto !important;
@@ -100,9 +110,9 @@ h2 {
 	color:$text-color;
 	text-shadow:none;
 	font-weight: 300;
-	top:30%;
-	left:30%;
-	right:30%;
+	top:15%;
+	left:15%;
+	right:15%;
 	bottom:auto;
 	h3 {
 		font-size:25.5px;
@@ -116,15 +126,17 @@ h2 {
 }
 .carousel-caption-button {
 	position: absolute;
-	left:50%;
-	bottom: 18%;
-	z-index: 10;
+	left:15%;
+	right: 15%;
+	bottom: 15%;
 }
 //FEATURED
 //FEATURED BLUE
 .featured-blue{
 	background-color: rgba(177,201,202,0.37);
-	padding:2em 0;
+	.quote-row {
+		margin:2em 0;
+	}
 	img {
 		border-radius:50%;
 		margin-top:2em;
@@ -138,6 +150,7 @@ h2 {
 	.quote-author {
 		font-size: 27px;
 		color:#000000;
+		float: right;
 	}
 	.carousel-control {
 		width:5%;
@@ -147,7 +160,10 @@ h2 {
 //FEATURED GREY
 .featured-grey {
 	background-color: $brand-info;
-	padding:2em 0;
+	padding-top:2em;
+	p:last-child {
+		margin-bottom:2em;
+	}
 }
 
 
@@ -194,7 +210,6 @@ h2 {
 			margin:0;
 			font-size: $font-size-base;
 			text-transform: uppercase;
-
 			a{
 				color:$gray-base;
 			}
@@ -260,6 +275,8 @@ h2 {
 		width: 260px;
 	}
 	img {
+		height: 50px;
+		width: auto;
 		&:hover, &:focus {
 			background-color: lighten($gray-base, 93.5%);
 		}
@@ -269,5 +286,5 @@ footer {
 	padding-bottom: 1em;
 	background-color: $brand-primary;
 	border-top-width:0;
-	font-size: 0.75em;
+	font-size: 0.9em;
 }
