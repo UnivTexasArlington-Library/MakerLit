@@ -6602,10 +6602,11 @@ h2 {
   .featured-grey p:last-child {
     margin-bottom: 2em; }
 
+#block-quicktabs-filter-by h2.block-title {
+  text-transform: unset; }
+
 #quickset-filter_by {
   font-family: inherit; }
-  #quickset-filter_by h2.block-title {
-    text-transform: unset; }
 
 .ui-widget-content,
 .ui-state-default {
@@ -6613,11 +6614,11 @@ h2 {
   border-color: #b1c9ca; }
   .ui-widget-content a,
   .ui-state-default a {
-    text-transform: uppercase;
+    text-transform: unset;
     font-size: 20px; }
 
 .ui-accordion .ui-accordion-content {
-  padding: 1em 0.5em;
+  padding: 0.5em 0.5em 0.5em 0.7em;
   height: auto !important; }
 
 .facetapi-facetapi-checkbox-links {
@@ -6632,6 +6633,8 @@ h2 {
 .ui-accordion .ui-accordion-icons {
   padding-left: 0.7em; }
 
+.ui-accordion .ui-accordion-header a {
+  text-transform: uppercase; }
 .ui-accordion .ui-accordion-header .ui-accordion-header-icon {
   left: auto;
   right: 0.5em; }

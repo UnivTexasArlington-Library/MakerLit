@@ -105,7 +105,6 @@ h2 {
 	.panels-flexible-row {
 		padding-bottom:2em;
 	}
-
 }
 // HERO
 .panels-flexible-region-homepage_layout-hero,
@@ -180,24 +179,25 @@ h2 {
 }
 
 //ACCORDIONS - FACETS
-#quickset-filter_by {
-	font-family: inherit;
+#block-quicktabs-filter-by {
 	h2.block-title {
 		text-transform: unset;
 	}
+}
+#quickset-filter_by {
+	font-family: inherit;
 }
 .ui-widget-content,
 .ui-state-default {
 	background: none;
 	border-color: $brand-primary;
 	a {
-		text-transform: uppercase;
+		text-transform: unset;
 		font-size: $font-size-base;
-
 	}
 }
 .ui-accordion .ui-accordion-content {
-	padding: 1em 0.5em;
+	padding: 0.5em 0.5em 0.5em 0.7em;
 	height: auto !important;
 }
 
@@ -213,9 +213,14 @@ h2 {
 .ui-accordion .ui-accordion-icons {
 	padding-left: 0.7em;
 }
-.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
-	left:auto;
-	right:0.5em;
+.ui-accordion .ui-accordion-header {
+	a {
+		text-transform: uppercase;
+	}
+	.ui-accordion-header-icon {
+		left:auto;
+		right:0.5em;
+	}
 }
 .ui-icon-triangle-1-e { /*open accordion*/
 	background-position: -67px -2px;
