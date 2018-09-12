@@ -6529,11 +6529,11 @@ h2 {
   #block-superfish-1 li.menu-503-1 {
     /* Project Personel Link*/ }
     #block-superfish-1 li.menu-503-1 ::before {
-      content: url(/sites/default/files/); }
+      content: url(/sites/library-test.uta.edu.makerliteracies/files/003-person.png); }
   #block-superfish-1 li.menu-469-1 {
     /* Blog */ }
     #block-superfish-1 li.menu-469-1 ::before {
-      content: url(); }
+      content: url(/sites/library-test.uta.edu.makerliteracies/files/002-blog-comment-speech-bubble-symbol.png); }
   #block-superfish-1 li.menu-504-1 {
     /* Search */ }
     #block-superfish-1 li.menu-504-1 ::before {
