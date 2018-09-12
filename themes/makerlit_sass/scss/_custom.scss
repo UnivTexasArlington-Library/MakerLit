@@ -77,7 +77,12 @@ h2 {
 		background-color: #fff;
 		padding:1em;
 		top: 1em;
+		> ul {
+			background-color: #fff;
+			padding: 0.5em;
+		}
 	}
+
 	.sf-depth-2 {
 		text-transform: capitalize;
 		font-weight: $font-regular;
@@ -175,6 +180,13 @@ h2 {
 }
 
 //ACCORDIONS - FACETS
+#quickset-filter_by {
+	font-family: inherit;
+	h2.block-title {
+		text-transform: unset;
+	}
+}
+.ui-widget-content,
 .ui-state-default {
 	background: none;
 	border-color: $brand-primary;
@@ -186,8 +198,9 @@ h2 {
 }
 .ui-accordion .ui-accordion-content {
 	padding: 1em 0.5em;
-
+	height: auto !important;
 }
+
 .facetapi-facetapi-checkbox-links {
 	padding-left: 0;
 }
@@ -196,6 +209,24 @@ h2 {
 }
 .facetapi-checkbox {
 	padding-left: 0.25em;
+}
+.ui-accordion .ui-accordion-icons {
+	padding-left: 0.7em;
+}
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+	left:auto;
+	right:0.5em;
+}
+.ui-icon-triangle-1-e { /*open accordion*/
+	background-position: -67px -2px;
+	border:1px solid;
+	border-radius: 50%;
+	height: 12px;
+	width: 13px;
+	margin:0 2px;
+}
+.ui-icon-triangle-1-s { /*close accordion*/
+	background-position: -32px -192px;
 }
 
 //FEATURED LESSONS

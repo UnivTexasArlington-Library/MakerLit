@@ -6522,6 +6522,9 @@ h2 {
     background-color: #fff;
     padding: 1em;
     top: 1em; }
+    #block-superfish-1 > ul > ul {
+      background-color: #fff;
+      padding: 0.5em; }
   #block-superfish-1 .sf-depth-2 {
     text-transform: capitalize;
     font-weight: 400;
@@ -6599,15 +6602,23 @@ h2 {
   .featured-grey p:last-child {
     margin-bottom: 2em; }
 
+#quickset-filter_by {
+  font-family: inherit; }
+  #quickset-filter_by h2.block-title {
+    text-transform: unset; }
+
+.ui-widget-content,
 .ui-state-default {
   background: none;
   border-color: #b1c9ca; }
+  .ui-widget-content a,
   .ui-state-default a {
     text-transform: uppercase;
     font-size: 20px; }
 
 .ui-accordion .ui-accordion-content {
-  padding: 1em 0.5em; }
+  padding: 1em 0.5em;
+  height: auto !important; }
 
 .facetapi-facetapi-checkbox-links {
   padding-left: 0; }
@@ -6617,6 +6628,26 @@ h2 {
 
 .facetapi-checkbox {
   padding-left: 0.25em; }
+
+.ui-accordion .ui-accordion-icons {
+  padding-left: 0.7em; }
+
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+  left: auto;
+  right: 0.5em; }
+
+.ui-icon-triangle-1-e {
+  /*open accordion*/
+  background-position: -67px -2px;
+  border: 1px solid;
+  border-radius: 50%;
+  height: 12px;
+  width: 13px;
+  margin: 0 2px; }
+
+.ui-icon-triangle-1-s {
+  /*close accordion*/
+  background-position: -32px -192px; }
 
 .featured-lessons-title .pane-title, .featured-lessons-title .pane-content {
   display: inline-block; }
