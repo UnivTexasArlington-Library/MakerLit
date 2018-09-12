@@ -1220,7 +1220,7 @@ h1, .h1 {
   font-size: 40px; }
 
 h2, .h2 {
-  font-size: 40px; }
+  font-size: 30px; }
 
 h3, .h3 {
   font-size: 20px; }
@@ -6503,7 +6503,7 @@ h2 {
     vertical-align: 50%; }
 
 #block-superfish-1 {
-  margin-bottom: 2em; }
+  margin-bottom: 1em; }
   #block-superfish-1 li {
     font-size: 1.25em;
     float: none;
@@ -6526,18 +6526,17 @@ h2 {
     text-transform: capitalize;
     font-weight: 400;
     font-size: 1em; }
-  #block-superfish-1 li.menu-503-1 {
-    /* Project Personel Link*/ }
-    #block-superfish-1 li.menu-503-1 ::before {
-      content: url(/sites/library-test.uta.edu.makerliteracies/files/003-person.png); }
-  #block-superfish-1 li.menu-469-1 {
-    /* Blog */ }
-    #block-superfish-1 li.menu-469-1 ::before {
-      content: url(/sites/library-test.uta.edu.makerliteracies/files/002-blog-comment-speech-bubble-symbol.png); }
-  #block-superfish-1 li.menu-504-1 {
-    /* Search */ }
-    #block-superfish-1 li.menu-504-1 ::before {
-      content: url(); }
+  #block-superfish-1 #menu-503-1::before {
+    /* Project Personel Link*/
+    content: url(/sites/library-test.uta.edu.makerliteracies/files/003-person.png);
+    transform: scale(0.3); }
+  #block-superfish-1 #menu-469-1::before {
+    /* Blog */
+    content: url(/sites/library-test.uta.edu.makerliteracies/files/002-blog-comment-speech-bubble-symbol.png);
+    transform: scale(0.3); }
+  #block-superfish-1 #menu-504-1 {
+    /* Search */
+    content: url(); }
 
 .panels-flexible-homepage_layout .panels-flexible-row {
   padding-bottom: 2em; }
@@ -6572,7 +6571,8 @@ h2 {
   position: absolute;
   left: 15%;
   right: 15%;
-  bottom: 15%; }
+  bottom: 15%;
+  text-align: center; }
 
 .featured-blue {
   background-color: rgba(177, 201, 202, 0.37); }
@@ -6598,6 +6598,25 @@ h2 {
   padding-top: 2em; }
   .featured-grey p:last-child {
     margin-bottom: 2em; }
+
+.ui-state-default {
+  background: none;
+  border-color: #b1c9ca; }
+  .ui-state-default a {
+    text-transform: uppercase;
+    font-size: 20px; }
+
+.ui-accordion .ui-accordion-content {
+  padding: 1em 0.5em; }
+
+.facetapi-facetapi-checkbox-links {
+  padding-left: 0; }
+
+.facetapi-facet {
+  font-size: 20px; }
+
+.facetapi-checkbox {
+  padding-left: 0.25em; }
 
 .featured-lessons-title .pane-title, .featured-lessons-title .pane-content {
   display: inline-block; }
@@ -6626,10 +6645,16 @@ h2 {
   width: 17em; }
   .featured-blog .caption h3 {
     margin: 0;
-    font-size: 20px;
-    text-transform: uppercase; }
+    font-size: 30px;
+    text-transform: uppercase;
+    border-bottom: 2px dotted #f4f4f4; }
     .featured-blog .caption h3 a {
       color: #000; }
+.featured-blog .views-field-field-blog-author {
+  padding-right: 0.5em; }
+.featured-blog .views-field-field-blog-author,
+.featured-blog .views-field-created {
+  font-size: 1.35em; }
 
 .breadcrumb {
   font-size: 0.9em;

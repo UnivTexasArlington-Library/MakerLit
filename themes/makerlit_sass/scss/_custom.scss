@@ -54,7 +54,7 @@ h2 {
 
 // MAIN MENU
 #block-superfish-1 {
-	margin-bottom:2em;
+	margin-bottom:1em;
 	li {
 		font-size: 1.25em;
 		float:none;
@@ -83,20 +83,16 @@ h2 {
 		font-weight: $font-regular;
 		font-size: 1em;
 	}
-	li.menu-503-1 { /* Project Personel Link*/
-		::before {
-			content:url(/sites/library-test.uta.edu.makerliteracies/files/003-person.png);
-		}
+	#menu-503-1::before { /* Project Personel Link*/
+		content:url(/sites/library-test.uta.edu.makerliteracies/files/003-person.png);
+		transform: scale(0.3);
 	}
-	li.menu-469-1 { /* Blog */
-		::before {
-			content:url(/sites/library-test.uta.edu.makerliteracies/files/002-blog-comment-speech-bubble-symbol.png);
-		}
+	#menu-469-1::before { /* Blog */
+		content:url(/sites/library-test.uta.edu.makerliteracies/files/002-blog-comment-speech-bubble-symbol.png);
+		transform: scale(0.3);
 	}
-	li.menu-504-1 { /* Search */
-		::before {
-			content:url();
-		}
+	#menu-504-1 { /* Search */
+		content:url();
 	}
 }
 //HOME
@@ -140,6 +136,7 @@ h2 {
 	left:15%;
 	right: 15%;
 	bottom: 15%;
+	text-align: center;
 }
 //FEATURED
 //FEATURED BLUE
@@ -177,6 +174,29 @@ h2 {
 	}
 }
 
+//ACCORDIONS - FACETS
+.ui-state-default {
+	background: none;
+	border-color: $brand-primary;
+	a {
+		text-transform: uppercase;
+		font-size: $font-size-base;
+
+	}
+}
+.ui-accordion .ui-accordion-content {
+	padding: 1em 0.5em;
+
+}
+.facetapi-facetapi-checkbox-links {
+	padding-left: 0;
+}
+.facetapi-facet {
+	font-size: $font-size-base;
+}
+.facetapi-checkbox {
+	padding-left: 0.25em;
+}
 
 //FEATURED LESSONS
 .featured-lessons-title {
@@ -184,6 +204,7 @@ h2 {
 		display: inline-block;
 	}
 }
+
 .views-bootstrap-grid-1 {
 	.views-field-field-image {
 		.overlay {
@@ -219,12 +240,20 @@ h2 {
 		width:17em;
 		h3 {
 			margin:0;
-			font-size: $font-size-base;
+			font-size: $font-size-h2;
 			text-transform: uppercase;
-			a{
+			border-bottom: 2px dotted $brand-info;
+			a {
 				color:$gray-base;
 			}
 		}
+	}
+	.views-field-field-blog-author {
+		padding-right: 0.5em;
+	}
+	.views-field-field-blog-author, 
+	.views-field-created {
+		font-size: 1.35em;
 	}
 
 }
