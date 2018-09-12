@@ -6482,6 +6482,9 @@ h2 {
 
 .region-logos-uta {
   float: left; }
+  .region-logos-uta img {
+    float: left;
+    height: 50px; }
 
 .region-logos-fb {
   float: right; }
@@ -6515,19 +6518,26 @@ h2 {
   #block-superfish-1 .sf-depth-1 {
     text-transform: uppercase;
     font-weight: 300; }
-  #block-superfish-1 ul {
+  #block-superfish-1 > ul {
     background-color: #fff;
-    padding: 1em; }
+    padding: 1em;
+    top: 1em; }
   #block-superfish-1 .sf-depth-2 {
     text-transform: capitalize;
     font-weight: 400;
-    font-size: 25px; }
+    font-size: 1em; }
   #block-superfish-1 li.menu-503-1 {
     /* Project Personel Link*/ }
+    #block-superfish-1 li.menu-503-1 ::before {
+      content: url(/sites/default/files/); }
   #block-superfish-1 li.menu-469-1 {
     /* Blog */ }
+    #block-superfish-1 li.menu-469-1 ::before {
+      content: url(); }
   #block-superfish-1 li.menu-504-1 {
     /* Search */ }
+    #block-superfish-1 li.menu-504-1 ::before {
+      content: url(); }
 
 .panels-flexible-homepage_layout .panels-flexible-row {
   padding-bottom: 2em; }

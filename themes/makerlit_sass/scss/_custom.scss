@@ -26,6 +26,10 @@ h2 {
 //HEADER
 .region-logos-uta {
 	float:left;
+	img {
+		float: left;
+		height: 50px;
+	}
 }
 .region-logos-fb {
 	float:right;
@@ -69,23 +73,30 @@ h2 {
 		text-transform: uppercase;
 		font-weight: $font-light;
 	}
-	ul {
+	> ul {
 		background-color: #fff;
 		padding:1em;
+		top: 1em;
 	}
 	.sf-depth-2 {
 		text-transform: capitalize;
 		font-weight: $font-regular;
-		font-size: 25px;
+		font-size: 1em;
 	}
 	li.menu-503-1 { /* Project Personel Link*/
-		
+		::before {
+			content:url(/sites/default/files/);
+		}
 	}
 	li.menu-469-1 { /* Blog */
-
+		::before {
+			content:url();
+		}
 	}
 	li.menu-504-1 { /* Search */
-
+		::before {
+			content:url();
+		}
 	}
 }
 //HOME
