@@ -6480,6 +6480,9 @@ h2 {
   font-size: 1.5em;
   margin-left: 1em; }
 
+.lead {
+  font-size: 1.25em; }
+
 .region-logos-uta {
   float: left; }
   .region-logos-uta img {
@@ -6561,13 +6564,12 @@ h2 {
   top: 15%;
   left: 15%;
   right: 15%;
-  bottom: auto; }
+  bottom: auto;
+  padding: 2em; }
   .carousel-caption h3 {
-    font-size: 25.5px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    margin-top: 0; }
   .carousel-caption p {
-    padding: 1em;
-    font-size: 25px;
     text-align: left; }
 
 .carousel-caption-button {
@@ -6709,14 +6711,24 @@ h2 {
   .node-type-course-information .bootstrap-twocol-stacked .row::nth-child(3) .field {
     margin-bottom: 0.5em; }
 
-#views-bootstrap-thumbnail-1 .thumbnail {
+#views-bootstrap-thumbnail-1 .thumbnail,
+#views-bootstrap-thumbnail-2 .thumbnail,
+#views-bootstrap-thumbnail-3 .thumbnail {
   padding: 1em;
   border-color: transparent; }
-  #views-bootstrap-thumbnail-1 .thumbnail:hover, #views-bootstrap-thumbnail-1 .thumbnail:focus {
+  #views-bootstrap-thumbnail-1 .thumbnail:hover, #views-bootstrap-thumbnail-1 .thumbnail:focus,
+  #views-bootstrap-thumbnail-2 .thumbnail:hover,
+  #views-bootstrap-thumbnail-2 .thumbnail:focus,
+  #views-bootstrap-thumbnail-3 .thumbnail:hover,
+  #views-bootstrap-thumbnail-3 .thumbnail:focus {
     border-color: #b1c9ca; }
-  #views-bootstrap-thumbnail-1 .thumbnail .caption {
+  #views-bootstrap-thumbnail-1 .thumbnail .caption,
+  #views-bootstrap-thumbnail-2 .thumbnail .caption,
+  #views-bootstrap-thumbnail-3 .thumbnail .caption {
     min-height: 90px; }
-#views-bootstrap-thumbnail-1 h3 {
+#views-bootstrap-thumbnail-1 h3,
+#views-bootstrap-thumbnail-2 h3,
+#views-bootstrap-thumbnail-3 h3 {
   font-size: 20px;
   margin-bottom: 0;
   margin-top: 0; }

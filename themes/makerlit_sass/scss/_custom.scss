@@ -23,6 +23,9 @@ h2 {
 	font-size: 1.5em;
 	margin-left:1em;
 }
+.lead {
+	font-size: 1.25em;
+}
 //HEADER
 .region-logos-uta {
 	float:left;
@@ -125,13 +128,12 @@ h2 {
 	left:15%;
 	right:15%;
 	bottom:auto;
+	padding:2em;
 	h3 {
-		font-size:25.5px;
 		text-transform: uppercase;
+		margin-top:0;
 	}
 	p {
-		padding:1em;
-		font-size: 25px;
 		text-align: left;
 	}
 }
@@ -320,7 +322,9 @@ h2 {
 	}
 }
 //PROJECT PERSONNEL
-#views-bootstrap-thumbnail-1 {
+#views-bootstrap-thumbnail-1,
+#views-bootstrap-thumbnail-2,
+#views-bootstrap-thumbnail-3 {
 	.thumbnail {
 		padding:1em;
 		border-color: transparent;
