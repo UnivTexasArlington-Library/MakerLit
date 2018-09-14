@@ -170,15 +170,16 @@
       </aside>  <!-- /#sidebar-first -->
     <?php endif; ?>
 
-
+      <div class="col-sm-8">
       <?php print render($page['content']); ?>
+    </div>
     </section>
 
-    <?php if (!empty($page['sidebar_second'])): ?>
-      <aside class="col-sm-8" role="complementary">
+   <!-- <?php if (!empty($page['sidebar_second'])): ?>
+      <aside class="col-sm-2" role="complementary">
         <?php print render($page['sidebar_second']); ?>
       </aside>  <!-- /#sidebar-second -->
-    <?php endif; ?>
+    <!-- <?php endif; ?> -->
 
   </div>
 </div>
