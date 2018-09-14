@@ -165,14 +165,20 @@
       <?php endif; ?>
 
     <?php if (!empty($page['sidebar_first'])): ?>
-      <aside class="col-sm-2" role="complementary">
+      <aside class="col-sm-3" role="complementary">
         <?php print render($page['sidebar_first']); ?>
       </aside>  <!-- /#sidebar-first -->
+      <div class="col-sm-9">
+      <?php print render($page['content']); ?>
+      </div>
+
+
+      <?php else ?>
+      <div class="col-sm-12">
+      <?php print render($page['content']); ?>
+      </div>
     <?php endif; ?>
 
-      <div class="col-sm-8">
-      <?php print render($page['content']); ?>
-    </div>
     </section>
 
    <!-- <?php if (!empty($page['sidebar_second'])): ?>
