@@ -145,7 +145,7 @@
       </aside>  <!-- /#sidebar-first -->
     <?php endif; ?>
 
-    <section class="col-sm-8 col-sm-offset-2">
+    <section<?php print $content_column_class; ?>>
       <?php if (!empty($page['highlighted'])): ?>
         <div class="highlighted fluid-container"><?php print render($page['highlighted']); ?></div>
       <?php endif; ?>
