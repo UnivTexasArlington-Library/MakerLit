@@ -171,9 +171,8 @@
       <div class="col-sm-9">
       <?php print render($page['content']); ?>
       </div>
-
-
-      <?php else ?>
+<?php endif; ?>
+      <?php if (empty($page['sidebar_first'])): ?>
       <div class="col-sm-12">
       <?php print render($page['content']); ?>
       </div>
