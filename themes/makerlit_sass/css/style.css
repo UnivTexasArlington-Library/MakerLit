@@ -6532,15 +6532,13 @@ h2 {
     text-transform: capitalize;
     font-weight: 400;
     font-size: 1em; }
-  #block-superfish-1 #menu-503-1::before {
+  #block-superfish-1 #menu-503-1 a::before {
     /* Project Personel Link*/
-    content: url(/sites/library-test.uta.edu.makerliteracies/files/003-person.png);
-    transform: scale(0.3); }
-  #block-superfish-1 #menu-469-1::before {
+    content: url(/sites/library-test.uta.edu.makerliteracies/files/003-person32x32.png); }
+  #block-superfish-1 #menu-469-1 a::before {
     /* Blog */
-    content: url(/sites/library-test.uta.edu.makerliteracies/files/002-blog-comment-speech-bubble-symbol.png);
-    transform: scale(0.3); }
-  #block-superfish-1 #menu-504-1 {
+    content: url(/sites/library-test.uta.edu.makerliteracies/files/blog-comment-speech-bubble-symbol_32x32.png); }
+  #block-superfish-1 #menu-504-1 a {
     /* Search */
     content: url(); }
 
@@ -6747,6 +6745,9 @@ h2 {
     width: auto; }
     #partners img:hover, #partners img:focus {
       background-color: #eeeeee; }
+
+.node-type-course-information .field {
+  margin-bottom: 1em; }
 
 footer {
   padding-bottom: 1em;
