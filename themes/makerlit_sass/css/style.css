@@ -6484,13 +6484,15 @@ h2 {
   font-size: 1.25em; }
 
 .region-logos-uta {
-  float: left; }
+  float: left;
+  margin-left: 0.25em; }
   .region-logos-uta img {
     float: left;
     height: 50px; }
 
 .region-logos-fb {
-  float: right; }
+  float: right;
+  margin-right: 0.25em; }
 
 .navbar {
   text-align: center; }
@@ -6522,22 +6524,24 @@ h2 {
     text-transform: uppercase;
     font-weight: 300; }
   #block-superfish-1 > ul {
-    background-color: #fff;
     padding: 1em;
     top: 1em; }
     #block-superfish-1 > ul > ul {
-      background-color: #fff;
       padding: 0.5em; }
+  #block-superfish-1 .sf-menu ul {
+    background-color: #fff; }
   #block-superfish-1 .sf-depth-2 {
     text-transform: capitalize;
     font-weight: 400;
     font-size: 1em; }
   #block-superfish-1 #menu-503-1 a::before {
     /* Project Personel Link*/
-    content: url(/sites/library-test.uta.edu.makerliteracies/files/003-person32x32.png); }
+    content: url(/sites/library-test.uta.edu.makerliteracies/files/003-person32x32.png);
+    margin-right: 0.25em; }
   #block-superfish-1 #menu-469-1 a::before {
     /* Blog */
-    content: url(/sites/library-test.uta.edu.makerliteracies/files/blog-comment-speech-bubble-symbol_32x32.png); }
+    content: url(/sites/library-test.uta.edu.makerliteracies/files/blog-comment-speech-bubble-symbol_32x32.png);
+    margin-right: 0.25em; }
   #block-superfish-1 #menu-504-1 a {
     /* Search */
     content: url(); }
@@ -6679,9 +6683,10 @@ h2 {
   width: 17em; }
   .featured-blog .caption h3 {
     margin: 0;
-    font-size: 30px;
+    font-size: 1.5em;
     text-transform: uppercase;
-    border-bottom: 2px dotted #f4f4f4; }
+    border-bottom: 0.25em dotted #f4f4f4;
+    padding-bottom: 0.25em; }
     .featured-blog .caption h3 a {
       color: #000; }
 .featured-blog .views-field-field-blog-author {
@@ -6689,6 +6694,14 @@ h2 {
 .featured-blog .views-field-field-blog-author,
 .featured-blog .views-field-created {
   font-size: 1.35em; }
+
+.blog-teaser {
+  margin-bottom: 3em; }
+  .blog-teaser h3 {
+    margin-top: 0;
+    border-bottom: 0.25em dotted #f4f4f4;
+    padding-bottom: 0.25em;
+    font-size: 1.5em; }
 
 .breadcrumb {
   font-size: 0.9em;

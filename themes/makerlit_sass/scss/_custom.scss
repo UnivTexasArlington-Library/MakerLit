@@ -29,6 +29,7 @@ h2 {
 //HEADER
 .region-logos-uta {
 	float:left;
+	margin-left:0.25em;
 	img {
 		float: left;
 		height: 50px;
@@ -36,6 +37,7 @@ h2 {
 }
 .region-logos-fb {
 	float:right;
+	margin-right:0.25em;
 }
 
 .navbar {
@@ -77,15 +79,15 @@ h2 {
 		font-weight: $font-light;
 	}
 	> ul {
-		background-color: #fff;
 		padding:1em;
 		top: 1em;
 		> ul {
-			background-color: #fff;
 			padding: 0.5em;
 		}
 	}
-
+	.sf-menu ul {
+		background-color: #fff;
+	}
 	.sf-depth-2 {
 		text-transform: capitalize;
 		font-weight: $font-regular;
@@ -93,9 +95,11 @@ h2 {
 	}
 	#menu-503-1 a::before { /* Project Personel Link*/
 		content:url(/sites/library-test.uta.edu.makerliteracies/files/003-person32x32.png);
+		margin-right:0.25em;
 	}
 	#menu-469-1 a::before { /* Blog */
 		content:url(/sites/library-test.uta.edu.makerliteracies/files/blog-comment-speech-bubble-symbol_32x32.png);
+		margin-right:0.25em;
 	}
 	#menu-504-1 a { /* Search */
 		content:url();
@@ -276,9 +280,10 @@ h2 {
 		width:17em;
 		h3 {
 			margin:0;
-			font-size: $font-size-h2;
+			font-size: 1.5em;
 			text-transform: uppercase;
-			border-bottom: 2px dotted $brand-info;
+			border-bottom: 0.25em dotted $brand-info;
+			padding-bottom:0.25em;
 			a {
 				color:$gray-base;
 			}
@@ -291,7 +296,15 @@ h2 {
 	.views-field-created {
 		font-size: 1.35em;
 	}
-
+}
+.blog-teaser {
+	margin-bottom:3em;
+	h3 {
+		margin-top:0;
+		border-bottom: 0.25em dotted $brand-info;
+		padding-bottom:0.25em;
+		font-size: 1.5em;
+	}
 }
 //BREADCRUMBS
 .breadcrumb {
