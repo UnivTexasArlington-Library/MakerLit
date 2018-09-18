@@ -323,7 +323,9 @@ p > a {
 .page-header {
 	border-bottom-width: 0;
 }
-
+.bootstrap-twocol-stacked .left {
+	padding-right:1em;
+}
 
 //COURSE INFORMATION PAGE
 .node-type-course-information {

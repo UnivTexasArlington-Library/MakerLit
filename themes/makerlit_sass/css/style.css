@@ -6719,6 +6719,9 @@ p > a {
 .page-header {
   border-bottom-width: 0; }
 
+.bootstrap-twocol-stacked .left {
+  padding-right: 1em; }
+
 .node-type-course-information .bootstrap-twocol-stacked .row::nth-child(2),
 .node-type-course-information .bootstrap-twocol-stacked .row::nth-child(3) {
   border: 1px solid;
