@@ -6767,7 +6767,8 @@ p > a {
       background-color: #eeeeee; }
 
 .node-type-course-information .views-field {
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  display: block; }
 .node-type-course-information .field-item {
   line-height: 1.9; }
 
