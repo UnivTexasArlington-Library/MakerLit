@@ -191,6 +191,7 @@ p > a {
 
 //ACCORDIONS - FACETS
 #block-quicktabs-filter-by {
+	margin-left:-15px;
 	h2.block-title {
 		text-transform: unset;
 	}
@@ -313,6 +314,7 @@ p > a {
 		font-size: 1.5em;
 	}
 }
+
 //BREADCRUMBS
 .breadcrumb {
 	font-size: 0.9em;
@@ -324,7 +326,8 @@ p > a {
 .page-header {
 	border-bottom-width: 0;
 }
-.bootstrap-twocol-stacked .left {
+.bootstrap-twocol-stacked .left,
+.panels-flexible-region-offset_2_9_layout-image {
 	padding-right:1em;
 	padding-left:0;
 }

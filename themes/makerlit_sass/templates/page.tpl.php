@@ -127,7 +127,7 @@
   </div>
 </header>
 
-<div class="main-container <?php print $container_class; ?>">
+<div class="main-container container">
 
   <header role="banner" id="page-header">
     <?php if (!empty($site_slogan)): ?>
@@ -138,10 +138,7 @@
   </header> <!-- /#page-header -->
 
   <div class="row">
-
-
-
-    <section class="col-sm-8 col-sm-offset-2">
+    <section class="col-sm-12">
       <?php if (!empty($page['highlighted'])): ?>
         <div class="highlighted fluid-container"><?php print render($page['highlighted']); ?></div>
       <?php endif; ?>

@@ -6613,8 +6613,10 @@ p > a {
   .featured-grey p:last-child {
     margin-bottom: 2em; }
 
-#block-quicktabs-filter-by h2.block-title {
-  text-transform: unset; }
+#block-quicktabs-filter-by {
+  margin-left: -15px; }
+  #block-quicktabs-filter-by h2.block-title {
+    text-transform: unset; }
 
 #quickset-filter_by {
   font-family: inherit; }
@@ -6719,7 +6721,8 @@ p > a {
 .page-header {
   border-bottom-width: 0; }
 
-.bootstrap-twocol-stacked .left {
+.bootstrap-twocol-stacked .left,
+.panels-flexible-region-offset_2_9_layout-image {
   padding-right: 1em;
   padding-left: 0; }
 
