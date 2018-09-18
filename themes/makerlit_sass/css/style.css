@@ -6766,13 +6766,14 @@ p > a {
     #partners img:hover, #partners img:focus {
       background-color: #eeeeee; }
 
-.node-type-course-information .field {
+.node-type-course-information .views-field {
   margin-bottom: 1em; }
-.node-type-course-information .field .field-label {
-  font-weight: 400;
-  font-size: 30px; }
 .node-type-course-information .field-item {
   line-height: 1.9; }
+
+.course-label {
+  font-weight: 400;
+  font-size: 30px; }
 
 footer {
   padding-bottom: 1em;
