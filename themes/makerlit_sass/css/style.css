@@ -6473,6 +6473,13 @@ h2 {
   text-transform: uppercase;
   font-weight: 400; }
 
+p > a {
+  text-decoration: underline; }
+
+.row {
+  margin-right: 0;
+  margin-left: 0; }
+
 .inline {
   display: inline-block; }
 
@@ -6485,14 +6492,14 @@ h2 {
 
 .region-logos-uta {
   float: left;
-  margin-left: 0.25em; }
+  /*margin-left:0.25em;*/ }
   .region-logos-uta img {
     float: left;
     height: 50px; }
 
 .region-logos-fb {
   float: right;
-  margin-right: 0.25em; }
+  /*margin-right:0.25em;*/ }
 
 .navbar {
   text-align: center; }
@@ -6761,6 +6768,11 @@ h2 {
 
 .node-type-course-information .field {
   margin-bottom: 1em; }
+.node-type-course-information .field .field-label {
+  font-weight: 400;
+  font-size: 30px; }
+.node-type-course-information .field-item {
+  line-height: 1.9; }
 
 footer {
   padding-bottom: 1em;

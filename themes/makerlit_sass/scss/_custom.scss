@@ -14,7 +14,13 @@ h2 {
 	text-transform: uppercase;
 	font-weight: $font-regular;
 }
-
+p > a {
+	text-decoration: underline;
+}
+.row {
+	margin-right: 0;
+	margin-left:0;
+}
 //HELPER CLASSES
 .inline {
 	display: inline-block;
@@ -29,7 +35,7 @@ h2 {
 //HEADER
 .region-logos-uta {
 	float:left;
-	margin-left:0.25em;
+	/*margin-left:0.25em;*/
 	img {
 		float: left;
 		height: 50px;
@@ -37,7 +43,7 @@ h2 {
 }
 .region-logos-fb {
 	float:right;
-	margin-right:0.25em;
+	/*margin-right:0.25em;*/
 }
 
 .navbar {
@@ -378,7 +384,13 @@ h2 {
 	.field {
 		margin-bottom: 1em;
 	}
-	
+	.field .field-label {
+		font-weight: 400;
+		font-size: 30px;
+	}
+	.field-item {
+		line-height: 1.9;
+	}
 }
 footer {
 	padding-bottom: 1em;
