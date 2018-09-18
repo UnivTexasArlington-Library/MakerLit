@@ -381,16 +381,16 @@ p > a {
 }
 // COURSE INFORMATION PAGES
 .node-type-course-information {
-	.field {
+	.views-field {
 		margin-bottom: 1em;
-	}
-	.field .field-label {
-		font-weight: 400;
-		font-size: 30px;
 	}
 	.field-item {
 		line-height: 1.9;
 	}
+}
+.course-label {
+	font-weight: 400;
+	font-size: 30px;
 }
 footer {
 	padding-bottom: 1em;
