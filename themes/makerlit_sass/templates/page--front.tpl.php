@@ -75,7 +75,7 @@
  */
 ?>
 <header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
-  <div class="row">
+  <div class="row row-logos">
       <?php if (!empty($page['logos_uta'])): ?>
     <div class="col-sm-2">
       <?php print render($page['logos_uta']); ?>

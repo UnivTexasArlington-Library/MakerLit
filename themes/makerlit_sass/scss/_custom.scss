@@ -17,10 +17,7 @@ h2 {
 p > a {
 	text-decoration: underline;
 }
-.row {
-	margin-right: 0;
-	margin-left:0;
-}
+
 //HELPER CLASSES
 .inline {
 	display: inline-block;
@@ -33,6 +30,10 @@ p > a {
 	font-size: 1.25em;
 }
 //HEADER
+.row-logos {
+	margin-right: 0;
+	margin-left:0;
+}
 .region-logos-uta {
 	float:left;
 	/*margin-left:0.25em;*/
@@ -325,6 +326,7 @@ p > a {
 }
 .bootstrap-twocol-stacked .left {
 	padding-right:1em;
+	padding-left:0;
 }
 
 //COURSE INFORMATION PAGE

@@ -6476,10 +6476,6 @@ h2 {
 p > a {
   text-decoration: underline; }
 
-.row {
-  margin-right: 0;
-  margin-left: 0; }
-
 .inline {
   display: inline-block; }
 
@@ -6489,6 +6485,10 @@ p > a {
 
 .lead {
   font-size: 1.25em; }
+
+.row-logos {
+  margin-right: 0;
+  margin-left: 0; }
 
 .region-logos-uta {
   float: left;
@@ -6720,7 +6720,8 @@ p > a {
   border-bottom-width: 0; }
 
 .bootstrap-twocol-stacked .left {
-  padding-right: 1em; }
+  padding-right: 1em;
+  padding-left: 0; }
 
 .node-type-course-information .bootstrap-twocol-stacked .row::nth-child(2),
 .node-type-course-information .bootstrap-twocol-stacked .row::nth-child(3) {
