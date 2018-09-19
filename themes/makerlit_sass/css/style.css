@@ -249,7 +249,7 @@ th {
   .dropup > .btn > .caret {
     border-top-color: #000 !important; }
 
-  .label, .pane-current-search-clone-of-standard li .facetapi-active {
+  .label, .pane-current-search-clone-of-standard li {
     border: 1px solid #000; }
 
   .table {
@@ -4204,7 +4204,7 @@ tbody.collapse.in {
     background-color: #fff;
     cursor: not-allowed; }
 
-.label, .pane-current-search-clone-of-standard li .facetapi-active {
+.label, .pane-current-search-clone-of-standard li {
   display: inline;
   padding: .2em .6em .3em;
   font-size: 75%;
@@ -4215,13 +4215,13 @@ tbody.collapse.in {
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: .25em; }
-  .label:empty, .pane-current-search-clone-of-standard li .facetapi-active:empty {
+  .label:empty, .pane-current-search-clone-of-standard li:empty {
     display: none; }
-  .btn .label, .btn .pane-current-search-clone-of-standard li .facetapi-active, .pane-current-search-clone-of-standard li .btn .facetapi-active {
+  .btn .label, .btn .pane-current-search-clone-of-standard li, .pane-current-search-clone-of-standard .btn li {
     position: relative;
     top: -1px; }
 
-a.label:hover, .pane-current-search-clone-of-standard li a.facetapi-active:hover, a.label:focus, .pane-current-search-clone-of-standard li a.facetapi-active:focus {
+a.label:hover, a.label:focus {
   color: #fff;
   text-decoration: none;
   cursor: pointer; }
@@ -4241,9 +4241,9 @@ a.label:hover, .pane-current-search-clone-of-standard li a.facetapi-active:hover
   .label-success[href]:hover, .label-success[href]:focus {
     background-color: #dd660a; }
 
-.label-info, .pane-current-search-clone-of-standard li .facetapi-active {
+.label-info, .pane-current-search-clone-of-standard li {
   background-color: #f4f4f4; }
-  .label-info[href]:hover, .pane-current-search-clone-of-standard li [href].facetapi-active:hover, .label-info[href]:focus, .pane-current-search-clone-of-standard li [href].facetapi-active:focus {
+  .label-info[href]:hover, .pane-current-search-clone-of-standard li[href]:hover, .label-info[href]:focus, .pane-current-search-clone-of-standard li[href]:focus {
     background-color: #dbdbdb; }
 
 .label-warning {
@@ -6111,7 +6111,7 @@ ul li.leaf {
   position: relative; }
   .form-type-password-confirm label {
     display: block; }
-    .form-type-password-confirm label .label, .form-type-password-confirm label .pane-current-search-clone-of-standard li .facetapi-active, .pane-current-search-clone-of-standard li .form-type-password-confirm label .facetapi-active {
+    .form-type-password-confirm label .label, .form-type-password-confirm label .pane-current-search-clone-of-standard li, .pane-current-search-clone-of-standard .form-type-password-confirm label li {
       float: right; }
   .form-type-password-confirm .password-help {
     padding-left: 2em; }
@@ -6303,7 +6303,7 @@ th.radio,
 td.radio {
   display: table-cell; }
 
-.views-display-settings .label, .views-display-settings .pane-current-search-clone-of-standard li .facetapi-active, .pane-current-search-clone-of-standard li .views-display-settings .facetapi-active {
+.views-display-settings .label, .views-display-settings .pane-current-search-clone-of-standard li, .pane-current-search-clone-of-standard .views-display-settings li {
   font-size: 100%;
   color: #666666; }
 .views-display-settings .footer {
@@ -6681,11 +6681,13 @@ p > a {
   background-color: rgba(177, 201, 202, 0.93);
   font-weight: 300;
   font-size: 27px; }
-  .views-bootstrap-grid-1 .views-field-field-image .overlay .label, .views-bootstrap-grid-1 .views-field-field-image .overlay .pane-current-search-clone-of-standard li .facetapi-active, .pane-current-search-clone-of-standard li .views-bootstrap-grid-1 .views-field-field-image .overlay .facetapi-active {
+  .views-bootstrap-grid-1 .views-field-field-image .overlay .label, .views-bootstrap-grid-1 .views-field-field-image .overlay .pane-current-search-clone-of-standard li, .pane-current-search-clone-of-standard .views-bootstrap-grid-1 .views-field-field-image .overlay li {
     font-weight: 400; }
 .views-bootstrap-grid-1 .views-field-field-image:hover .overlay, .views-bootstrap-grid-1 .views-field-field-image:focus .overlay {
   display: block; }
 
+.pane-current-search-clone-of-standard ul {
+  padding-left: 0; }
 .pane-current-search-clone-of-standard li {
   display: inline-block; }
   .pane-current-search-clone-of-standard li .facetapi-active {

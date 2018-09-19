@@ -282,13 +282,15 @@ p > a {
 }
 //LESSON PLANS PAGE
 .pane-current-search-clone-of-standard {
+	ul {
+		padding-left: 0;
+	}
 	li {
 		display: inline-block;
+		@extend .label;
+		@extend .label-info;
 		.facetapi-active {
-			@extend .label;
-			@extend .label-info;
 			color:$text-color;
-
 			a {
 				float:right;
 				margin-left:0.25em;
