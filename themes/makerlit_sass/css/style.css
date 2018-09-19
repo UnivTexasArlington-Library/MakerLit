@@ -6686,6 +6686,9 @@ p > a {
 .views-bootstrap-grid-1 .views-field-field-image:hover .overlay, .views-bootstrap-grid-1 .views-field-field-image:focus .overlay {
   display: block; }
 
+.page-lesson-plans .bootstrap-twocol-stacked .row:nth-child(1) {
+  min-height: 2.5em; }
+
 .pane-current-search-clone-of-standard ul {
   padding-left: 0; }
 .pane-current-search-clone-of-standard li {
@@ -6694,7 +6697,9 @@ p > a {
     color: #424242; }
     .pane-current-search-clone-of-standard li .facetapi-active a {
       float: right;
-      margin-left: 0.25em; }
+      margin-left: 0.25em;
+      content: "\e088";
+      font-family: 'Glyphicons Halflings'; }
 
 .featured-blog .caption {
   position: relative;

@@ -281,6 +281,13 @@ p > a {
 	}
 }
 //LESSON PLANS PAGE
+.page-lesson-plans {
+	.bootstrap-twocol-stacked {
+		.row:nth-child(1) {
+			min-height:2.5em;
+		}
+	}
+}
 .pane-current-search-clone-of-standard {
 	ul {
 		padding-left: 0;
@@ -294,6 +301,8 @@ p > a {
 			a {
 				float:right;
 				margin-left:0.25em;
+				content:"\e088";
+				font-family: 'Glyphicons Halflings';
 			}
 		}
 	}
