@@ -6552,6 +6552,8 @@ p > a {
   #block-superfish-1 #menu-504-1 a {
     /* Search */
     content: url(); }
+  #block-superfish-1 a.active {
+    color: #783e3c; }
 
 .panels-flexible-homepage_layout .panels-flexible-row {
   padding-bottom: 2em; }
@@ -6684,6 +6686,14 @@ p > a {
 .views-bootstrap-grid-1 .views-field-field-image:hover .overlay, .views-bootstrap-grid-1 .views-field-field-image:focus .overlay {
   display: block; }
 
+.pane-current-search-clone-of-standard li {
+  display: inline-block; }
+  .pane-current-search-clone-of-standard li .facetapi-active {
+    color: #424242; }
+    .pane-current-search-clone-of-standard li .facetapi-active a {
+      float: right;
+      margin-left: 0.25em; }
+
 .featured-blog .caption {
   position: relative;
   top: -250px;
@@ -6725,6 +6735,10 @@ p > a {
 .panels-flexible-region-offset_2_9_layout-image {
   padding-right: 1em;
   padding-left: 0; }
+
+.region-sidebar-first {
+  margin-right: 1em;
+  margin-left: -15px; }
 
 .node-type-course-information .bootstrap-twocol-stacked .row::nth-child(2),
 .node-type-course-information .bootstrap-twocol-stacked .row::nth-child(3) {

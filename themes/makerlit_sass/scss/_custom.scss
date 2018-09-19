@@ -111,6 +111,9 @@ p > a {
 	#menu-504-1 a { /* Search */
 		content:url();
 	}
+	a.active {
+		color:$link-color;
+	}
 }
 //HOME
 .panels-flexible-homepage_layout {
@@ -277,7 +280,19 @@ p > a {
 		}
 	}
 }
-
+//LESSON PLANS PAGE
+.pane-current-search-clone-of-standard {
+	li {
+		display: inline-block;
+		.facetapi-active {
+			color:$text-color;
+			a {
+				float:right;
+				margin-left:0.25em;
+			}
+		}
+	}
+}
 // FEATURED Blog posts
 .featured-blog {
 	.caption {
@@ -330,6 +345,10 @@ p > a {
 .panels-flexible-region-offset_2_9_layout-image {
 	padding-right:1em;
 	padding-left:0;
+}
+.region-sidebar-first {
+	margin-right: 1em;
+	margin-left:-15px;
 }
 
 //COURSE INFORMATION PAGE
