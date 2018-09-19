@@ -285,7 +285,10 @@ p > a {
 	li {
 		display: inline-block;
 		.facetapi-active {
+			@extend .label;
+			@extend .label-info;
 			color:$text-color;
+
 			a {
 				float:right;
 				margin-left:0.25em;

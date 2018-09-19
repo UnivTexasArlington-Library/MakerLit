@@ -249,7 +249,7 @@ th {
   .dropup > .btn > .caret {
     border-top-color: #000 !important; }
 
-  .label {
+  .label, .pane-current-search-clone-of-standard li .facetapi-active {
     border: 1px solid #000; }
 
   .table {
@@ -4204,7 +4204,7 @@ tbody.collapse.in {
     background-color: #fff;
     cursor: not-allowed; }
 
-.label {
+.label, .pane-current-search-clone-of-standard li .facetapi-active {
   display: inline;
   padding: .2em .6em .3em;
   font-size: 75%;
@@ -4215,13 +4215,13 @@ tbody.collapse.in {
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: .25em; }
-  .label:empty {
+  .label:empty, .pane-current-search-clone-of-standard li .facetapi-active:empty {
     display: none; }
-  .btn .label {
+  .btn .label, .btn .pane-current-search-clone-of-standard li .facetapi-active, .pane-current-search-clone-of-standard li .btn .facetapi-active {
     position: relative;
     top: -1px; }
 
-a.label:hover, a.label:focus {
+a.label:hover, .pane-current-search-clone-of-standard li a.facetapi-active:hover, a.label:focus, .pane-current-search-clone-of-standard li a.facetapi-active:focus {
   color: #fff;
   text-decoration: none;
   cursor: pointer; }
@@ -4241,9 +4241,9 @@ a.label:hover, a.label:focus {
   .label-success[href]:hover, .label-success[href]:focus {
     background-color: #dd660a; }
 
-.label-info {
+.label-info, .pane-current-search-clone-of-standard li .facetapi-active {
   background-color: #f4f4f4; }
-  .label-info[href]:hover, .label-info[href]:focus {
+  .label-info[href]:hover, .pane-current-search-clone-of-standard li [href].facetapi-active:hover, .label-info[href]:focus, .pane-current-search-clone-of-standard li [href].facetapi-active:focus {
     background-color: #dbdbdb; }
 
 .label-warning {
@@ -6111,7 +6111,7 @@ ul li.leaf {
   position: relative; }
   .form-type-password-confirm label {
     display: block; }
-    .form-type-password-confirm label .label {
+    .form-type-password-confirm label .label, .form-type-password-confirm label .pane-current-search-clone-of-standard li .facetapi-active, .pane-current-search-clone-of-standard li .form-type-password-confirm label .facetapi-active {
       float: right; }
   .form-type-password-confirm .password-help {
     padding-left: 2em; }
@@ -6303,7 +6303,7 @@ th.radio,
 td.radio {
   display: table-cell; }
 
-.views-display-settings .label {
+.views-display-settings .label, .views-display-settings .pane-current-search-clone-of-standard li .facetapi-active, .pane-current-search-clone-of-standard li .views-display-settings .facetapi-active {
   font-size: 100%;
   color: #666666; }
 .views-display-settings .footer {
@@ -6681,7 +6681,7 @@ p > a {
   background-color: rgba(177, 201, 202, 0.93);
   font-weight: 300;
   font-size: 27px; }
-  .views-bootstrap-grid-1 .views-field-field-image .overlay .label {
+  .views-bootstrap-grid-1 .views-field-field-image .overlay .label, .views-bootstrap-grid-1 .views-field-field-image .overlay .pane-current-search-clone-of-standard li .facetapi-active, .pane-current-search-clone-of-standard li .views-bootstrap-grid-1 .views-field-field-image .overlay .facetapi-active {
     font-weight: 400; }
 .views-bootstrap-grid-1 .views-field-field-image:hover .overlay, .views-bootstrap-grid-1 .views-field-field-image:focus .overlay {
   display: block; }
