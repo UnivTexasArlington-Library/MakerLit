@@ -9,6 +9,9 @@ h1 {
 h2 {
 	text-transform: uppercase;
 	font-weight: $font-regular;
+	small {
+		text-transform: initial;
+	}
 }
 p > a {
 	text-decoration: underline;
@@ -167,6 +170,11 @@ p > a {
 	text-align: center;
 }
 //FEATURED
+.featured-blue,
+.featured-grey {
+	margin:2em 0;
+}
+
 //FEATURED BLUE
 .featured-blue{
 	background-color: rgba(177,201,202,0.37);
@@ -175,7 +183,7 @@ p > a {
 	}
 	img {
 		border-radius:50%;
-		margin-top:2em;
+		margin-top:1em;
 		margin-right: 2em;
 		float:right;
 	}
