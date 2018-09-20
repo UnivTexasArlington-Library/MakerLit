@@ -1109,7 +1109,7 @@ figure {
 img {
   vertical-align: middle; }
 
-.img-responsive {
+.img-responsive, .region-logos-uta img, .region-logos-fb img {
   display: block;
   max-width: 100%;
   height: auto; }
@@ -6469,7 +6469,13 @@ h2 {
   text-transform: uppercase;
   font-weight: 400; }
   h2 small {
-    text-transform: initial; }
+    text-transform: initial;
+    margin-left: 0.75em; }
+
+.blog-icon::before {
+  content: url(/sites/library-test.uta.edu.makerliteracies/files/blog-comment-speech-bubble-symbol_32x32.png);
+  margin-left: -0.75em;
+  margin-right: 0.75em; }
 
 p > a {
   text-decoration: underline; }
@@ -6493,15 +6499,15 @@ p > a {
   margin-left: 0; }
 
 .region-logos-uta {
-  float: left;
-  /*margin-left:0.25em;*/ }
+  float: left; }
   .region-logos-uta img {
     float: left;
-    height: 50px; }
+    max-height: 50px; }
 
 .region-logos-fb {
-  float: right;
-  /*margin-right:0.25em;*/ }
+  float: right; }
+  .region-logos-fb img {
+    max-height: 50px; }
 
 .navbar {
   text-align: center;
@@ -6566,7 +6572,8 @@ p > a {
       content: "\e003";
       visibility: visible; }
   #block-superfish-1 a.active {
-    color: #783e3c; }
+    color: #783e3c;
+    font-weight: 400; }
 
 .panels-flexible-homepage_layout .panels-flexible-row {
   padding-bottom: 2em; }
@@ -6600,7 +6607,7 @@ p > a {
   position: absolute;
   left: 25%;
   right: 25%;
-  bottom: 15%;
+  bottom: 22%;
   text-align: center; }
 
 .featured-blue,
@@ -6686,6 +6693,9 @@ p > a {
 .featured-lessons-title .pane-title, .featured-lessons-title .pane-content {
   display: inline-block; }
 
+.pane-featured-courses-panel-pane-5 {
+  margin-top: 2em; }
+
 .views-bootstrap-grid-1 .views-field-field-image .overlay {
   display: none;
   position: absolute;
@@ -6740,6 +6750,7 @@ p > a {
   font-size: 1.35em; }
 
 .blog-teaser {
+  margin-top: 2em;
   margin-bottom: 3em; }
   .blog-teaser h3 {
     margin-top: 0;
@@ -6797,8 +6808,9 @@ p > a {
   margin-top: 0; }
 
 #partners {
-  margin-top: 2em;
   margin-bottom: 2em; }
+  #partners h2.pane-title {
+    margin-bottom: 2em; }
   #partners .partner-uta {
     background-color: #f4f4f4;
     border: 1px solid #0064b1;
@@ -6806,7 +6818,7 @@ p > a {
     height: 85px;
     width: 260px; }
   #partners img {
-    height: 50px;
+    max-height: 200px;
     width: auto; }
     #partners img:hover, #partners img:focus {
       background-color: #eeeeee; }

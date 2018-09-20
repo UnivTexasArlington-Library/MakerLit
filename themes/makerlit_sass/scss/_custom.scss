@@ -11,7 +11,13 @@ h2 {
 	font-weight: $font-regular;
 	small {
 		text-transform: initial;
+		margin-left:0.75em;
 	}
+}
+.blog-icon::before{
+	content:url(/sites/library-test.uta.edu.makerliteracies/files/blog-comment-speech-bubble-symbol_32x32.png);
+	margin-left:-0.75em;
+	margin-right:0.75em;
 }
 p > a {
 	text-decoration: underline;
@@ -38,15 +44,18 @@ p > a {
 }
 .region-logos-uta {
 	float:left;
-	/*margin-left:0.25em;*/
 	img {
+		@extend .img-responsive;
 		float: left;
-		height: 50px;
+		max-height: 50px;
 	}
 }
 .region-logos-fb {
 	float:right;
-	/*margin-right:0.25em;*/
+	img {
+		@extend .img-responsive;
+		max-height: 50px;
+	}
 }
 
 .navbar {
@@ -130,6 +139,7 @@ p > a {
 	}
 	a.active {
 		color:$link-color;
+		font-weight: 400;
 	}
 }
 //HOME
@@ -170,7 +180,7 @@ p > a {
 	position: absolute;
 	left: 25%;
 	right: 25%;
-	bottom: 15%;
+	bottom: 22%;
 	text-align: center;
 }
 //FEATURED
@@ -276,6 +286,9 @@ p > a {
 		display: inline-block;
 	}
 }
+.pane-featured-courses-panel-pane-5 {
+	margin-top:2em;
+}
 
 .views-bootstrap-grid-1 {
 	.views-field-field-image {
@@ -358,6 +371,7 @@ p > a {
 	}
 }
 .blog-teaser {
+	margin-top:2em;
 	margin-bottom:3em;
 	h3 {
 		margin-top:0;
@@ -424,8 +438,10 @@ p > a {
 }
 // PARTNERS inline-block
 #partners {
-	margin-top:2em;
 	margin-bottom:2em;
+	h2.pane-title {
+		margin-bottom:2em;
+	}
 	.partner-uta {
 		background-color: $brand-info;
 		border:1px solid #0064b1;
@@ -434,7 +450,7 @@ p > a {
 		width: 260px;
 	}
 	img {
-		height: 50px;
+		max-height: 200px;
 		width: auto;
 		&:hover, &:focus {
 			background-color: lighten($gray-base, 93.5%);
