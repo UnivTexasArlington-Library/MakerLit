@@ -16,7 +16,10 @@ h2 {
 p > a {
 	text-decoration: underline;
 }
-
+.front .col-sm-12 {
+	padding-left: 0;
+	padding-right: 0;
+}
 //HELPER CLASSES
 .inline {
 	display: inline-block;
@@ -94,6 +97,7 @@ p > a {
 	}
 	.sf-menu ul {
 		background-color: #fff;
+		box-shadow: 10px 10px 50px $brand-info;
 	}
 	.sf-depth-2 {
 		text-transform: capitalize;
@@ -204,7 +208,6 @@ p > a {
 //FEATURED GREY
 .featured-grey {
 	background-color: $brand-info;
-	padding-top:2em;
 	p:last-child {
 		margin-bottom:2em;
 	}

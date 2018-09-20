@@ -6474,6 +6474,10 @@ h2 {
 p > a {
   text-decoration: underline; }
 
+.front .col-sm-12 {
+  padding-left: 0;
+  padding-right: 0; }
+
 .inline {
   display: inline-block; }
 
@@ -6535,7 +6539,8 @@ p > a {
     #block-superfish-1 > ul > ul {
       padding: 0.5em; }
   #block-superfish-1 .sf-menu ul {
-    background-color: #fff; }
+    background-color: #fff;
+    box-shadow: 10px 10px 50px #f4f4f4; }
   #block-superfish-1 .sf-depth-2 {
     text-transform: capitalize;
     font-weight: 400;
@@ -6622,8 +6627,7 @@ p > a {
     width: 5%; }
 
 .featured-grey {
-  background-color: #f4f4f4;
-  padding-top: 2em; }
+  background-color: #f4f4f4; }
   .featured-grey p:last-child {
     margin-bottom: 2em; }
 
