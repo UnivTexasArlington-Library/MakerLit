@@ -65,7 +65,7 @@ p > a {
 #block-superfish-1 {
 	margin-bottom:1em;
 	li {
-		font-size: 1.25em;
+		/*font-size: 1.25em;*/
 		float:none;
 		display: table-cell;
 		width: 1%;
@@ -95,9 +95,9 @@ p > a {
 	.sf-depth-2 {
 		text-transform: capitalize;
 		font-weight: $font-regular;
-		font-size: 1em;
+		/*font-size: 1em;*/
 		text-align: left;
-		margin:1em 0.5em;
+		margin:1em 0 1em 0.5em;
 	}
 	#menu-503-1 a::before, 
 	#menu-469-1 a::before {
@@ -113,12 +113,12 @@ p > a {
 	}
 	#menu-504-1 a { /* Search */
 		visibility: hidden;
-		/*text-indent:-9999px;*/
+		max-width:25px;
 		&::before {
 			font-family: 'Glyphicons Halflings';
 			content:"\e003"; 
 			visibility: visible;
-			/*text-indent: 0;*/
+
 		}
 	}
 	a.active {
@@ -146,26 +146,24 @@ p > a {
 	color:$text-color;
 	text-shadow:none;
 	font-weight: 300;
-	top:15%;
-	left:15%;
-	right:15%;
+	top:25%;
+	left:25%;
+	right:25%;
 	bottom:auto;
 	padding:2em;
 	h3 {
 		text-transform: uppercase;
 		margin-top:0;
-		font-size: 1.25em;
 	}
 	p {
 		text-align: left;
-		font-size: 1.25em;
 	}
 }
 .carousel-caption-button {
 	position: absolute;
 	left: 25%;
 	right: 25%;
-	bottom: 25%;
+	bottom: 15%;
 	text-align: center;
 }
 //FEATURED

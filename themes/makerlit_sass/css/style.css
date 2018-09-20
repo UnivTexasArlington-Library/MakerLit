@@ -6514,7 +6514,7 @@ p > a {
 #block-superfish-1 {
   margin-bottom: 1em; }
   #block-superfish-1 li {
-    font-size: 1.25em;
+    /*font-size: 1.25em;*/
     float: none;
     display: table-cell;
     width: 1%; }
@@ -6537,9 +6537,9 @@ p > a {
   #block-superfish-1 .sf-depth-2 {
     text-transform: capitalize;
     font-weight: 400;
-    font-size: 1em;
+    /*font-size: 1em;*/
     text-align: left;
-    margin: 1em 0.5em; }
+    margin: 1em 0 1em 0.5em; }
   #block-superfish-1 #menu-503-1 a::before,
   #block-superfish-1 #menu-469-1 a::before {
     margin-right: 0.25em;
@@ -6553,12 +6553,11 @@ p > a {
   #block-superfish-1 #menu-504-1 a {
     /* Search */
     visibility: hidden;
-    /*text-indent:-9999px;*/ }
+    max-width: 25px; }
     #block-superfish-1 #menu-504-1 a::before {
       font-family: 'Glyphicons Halflings';
       content: "\e003";
-      visibility: visible;
-      /*text-indent: 0;*/ }
+      visibility: visible; }
   #block-superfish-1 a.active {
     color: #783e3c; }
 
@@ -6579,24 +6578,22 @@ p > a {
   color: #424242;
   text-shadow: none;
   font-weight: 300;
-  top: 15%;
-  left: 15%;
-  right: 15%;
+  top: 25%;
+  left: 25%;
+  right: 25%;
   bottom: auto;
   padding: 2em; }
   .carousel-caption h3 {
     text-transform: uppercase;
-    margin-top: 0;
-    font-size: 1.25em; }
+    margin-top: 0; }
   .carousel-caption p {
-    text-align: left;
-    font-size: 1.25em; }
+    text-align: left; }
 
 .carousel-caption-button {
   position: absolute;
   left: 25%;
   right: 25%;
-  bottom: 25%;
+  bottom: 15%;
   text-align: center; }
 
 .featured-blue {
