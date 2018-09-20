@@ -6495,14 +6495,10 @@ p > a {
 .lead {
   font-size: 1.25em; }
 
-.row-logos {
-  margin-right: 0;
-  margin-left: 0; }
-
 .region-logos-uta img,
 .region-logos-fb img {
   max-height: 50px;
-  height: auto; }
+  width: auto; }
 
 .region-logos-uta {
   float: left; }
@@ -6757,7 +6753,7 @@ p > a {
     margin-top: 0;
     border-bottom: 0.25em dotted #f4f4f4;
     padding-bottom: 0.25em;
-    font-size: 1.5em; }
+    font-size: 2em; }
 
 .breadcrumb {
   font-size: 0.9em;
@@ -6769,7 +6765,7 @@ p > a {
   border-bottom-width: 0; }
 
 .bootstrap-twocol-stacked .left,
-.panels-flexible-region-offset_2_9_layout-image {
+.panels-flexible-region-offset_2_9_layout-image .panels-flexible-region-inside-first {
   padding-right: 2em;
   padding-left: 0; }
 
@@ -6833,6 +6829,10 @@ p > a {
 .course-label {
   font-weight: 400;
   font-size: 30px; }
+
+.glyphicon-new-window {
+  vertical-align: super;
+  font-size: 0.75em; }
 
 footer {
   padding-bottom: 1em;
