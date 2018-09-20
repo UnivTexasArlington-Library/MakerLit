@@ -114,8 +114,14 @@ p > a {
 		content:url(/sites/library-test.uta.edu.makerliteracies/files/blog-comment-speech-bubble-symbol_32x32.png);
 	}
 	#menu-504-1 a { /* Search */
-		font-family: 'Glyphicons Halflings';
-		content:"\e003"; 
+		visibility: hidden;
+		/*text-indent:-9999px;*/
+		&::before {
+			font-family: 'Glyphicons Halflings';
+			content:"\e003"; 
+			visibility: visible;
+			/*text-indent: 0;*/
+		}
 	}
 	a.active {
 		color:$link-color;

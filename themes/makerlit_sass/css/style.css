@@ -6554,8 +6554,13 @@ p > a {
     content: url(/sites/library-test.uta.edu.makerliteracies/files/blog-comment-speech-bubble-symbol_32x32.png); }
   #block-superfish-1 #menu-504-1 a {
     /* Search */
-    font-family: 'Glyphicons Halflings';
-    content: "\e003"; }
+    visibility: hidden;
+    /*text-indent:-9999px;*/ }
+    #block-superfish-1 #menu-504-1 a::before {
+      font-family: 'Glyphicons Halflings';
+      content: "\e003";
+      visibility: visible;
+      /*text-indent: 0;*/ }
   #block-superfish-1 a.active {
     color: #783e3c; }
 
