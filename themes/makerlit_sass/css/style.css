@@ -6458,10 +6458,6 @@ a.icon-after .glyphicon, a .glyphicon.icon-after {
   margin-left: .25em;
   margin-right: -.25em; }
 
-.container-fluid {
-  padding-left: 0;
-  padding-right: 0; }
-
 body {
   font-weight: 300; }
 
@@ -6502,7 +6498,8 @@ p > a {
   /*margin-right:0.25em;*/ }
 
 .navbar {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 0; }
   .navbar .logo img {
     vertical-align: bottom;
     height: 100px; }
@@ -6541,7 +6538,8 @@ p > a {
     text-transform: capitalize;
     font-weight: 400;
     font-size: 1em;
-    text-align: left; }
+    text-align: left;
+    margin: 1em 0.5em; }
   #block-superfish-1 #menu-503-1 a::before,
   #block-superfish-1 #menu-469-1 a::before {
     margin-right: 0.25em;
@@ -6588,15 +6586,17 @@ p > a {
   padding: 2em; }
   .carousel-caption h3 {
     text-transform: uppercase;
-    margin-top: 0; }
+    margin-top: 0;
+    font-size: 1.25em; }
   .carousel-caption p {
-    text-align: left; }
+    text-align: left;
+    font-size: 1.25em; }
 
 .carousel-caption-button {
   position: absolute;
-  left: 15%;
-  right: 15%;
-  bottom: 15%;
+  left: 25%;
+  right: 25%;
+  bottom: 25%;
   text-align: center; }
 
 .featured-blue {

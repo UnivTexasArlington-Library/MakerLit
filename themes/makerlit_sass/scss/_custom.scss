@@ -1,8 +1,4 @@
-
-.container-fluid {
-	padding-left:0;
-	padding-right:0;
-}
+//THEME
 body {
 	font-weight: $font-light;
 }
@@ -49,6 +45,7 @@ p > a {
 
 .navbar {
 	text-align: center;
+	margin-bottom: 0;
 	.logo img{
 		vertical-align: bottom;
 		height: 100px;
@@ -100,6 +97,7 @@ p > a {
 		font-weight: $font-regular;
 		font-size: 1em;
 		text-align: left;
+		margin:1em 0.5em;
 	}
 	#menu-503-1 a::before, 
 	#menu-469-1 a::before {
@@ -156,16 +154,18 @@ p > a {
 	h3 {
 		text-transform: uppercase;
 		margin-top:0;
+		font-size: 1.25em;
 	}
 	p {
 		text-align: left;
+		font-size: 1.25em;
 	}
 }
 .carousel-caption-button {
 	position: absolute;
-	left:15%;
-	right: 15%;
-	bottom: 15%;
+	left: 25%;
+	right: 25%;
+	bottom: 25%;
 	text-align: center;
 }
 //FEATURED
