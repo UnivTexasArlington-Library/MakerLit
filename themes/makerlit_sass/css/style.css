@@ -1109,7 +1109,7 @@ figure {
 img {
   vertical-align: middle; }
 
-.img-responsive, .region-logos-uta img, .region-logos-fb img {
+.img-responsive {
   display: block;
   max-width: 100%;
   height: auto; }
@@ -6470,7 +6470,8 @@ h2 {
   font-weight: 400; }
   h2 small {
     text-transform: initial;
-    margin-left: 0.75em; }
+    margin-left: 0.75em;
+    text-decoration: underline; }
 
 .blog-icon::before {
   content: url(/sites/library-test.uta.edu.makerliteracies/files/blog-comment-speech-bubble-symbol_32x32.png);
@@ -6498,16 +6499,16 @@ p > a {
   margin-right: 0;
   margin-left: 0; }
 
+.region-logos-uta img,
+.region-logos-fb img {
+  max-height: 50px;
+  height: auto; }
+
 .region-logos-uta {
   float: left; }
-  .region-logos-uta img {
-    float: left;
-    max-height: 50px; }
 
 .region-logos-fb {
   float: right; }
-  .region-logos-fb img {
-    max-height: 50px; }
 
 .navbar {
   text-align: center;

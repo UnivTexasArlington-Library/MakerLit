@@ -12,6 +12,7 @@ h2 {
 	small {
 		text-transform: initial;
 		margin-left:0.75em;
+		text-decoration: underline;
 	}
 }
 .blog-icon::before{
@@ -42,20 +43,18 @@ p > a {
 	margin-right: 0;
 	margin-left:0;
 }
+.region-logos-uta,
+.region-logos-fb {
+	img {
+		max-height: 50px;
+		height: auto;
+	}
+}
 .region-logos-uta {
 	float:left;
-	img {
-		@extend .img-responsive;
-		float: left;
-		max-height: 50px;
-	}
 }
 .region-logos-fb {
 	float:right;
-	img {
-		@extend .img-responsive;
-		max-height: 50px;
-	}
 }
 
 .navbar {
