@@ -99,17 +99,23 @@ p > a {
 		text-transform: capitalize;
 		font-weight: $font-regular;
 		font-size: 1em;
+		text-align: left;
+	}
+	#menu-503-1 a::before, 
+	#menu-469-1 a::before {
+		margin-right: 0.25em;
+		float:left;
 	}
 	#menu-503-1 a::before { /* Project Personel Link*/
 		content:url(/sites/library-test.uta.edu.makerliteracies/files/003-person32x32.png);
-		margin-right:0.25em;
+
 	}
 	#menu-469-1 a::before { /* Blog */
 		content:url(/sites/library-test.uta.edu.makerliteracies/files/blog-comment-speech-bubble-symbol_32x32.png);
-		margin-right:0.25em;
 	}
 	#menu-504-1 a { /* Search */
-		content:url();
+		font-family: 'Glyphicons Halflings';
+		content:"\e003"; 
 	}
 	a.active {
 		color:$link-color;
@@ -288,6 +294,9 @@ p > a {
 		}
 	}
 }
+.lesson-row {
+	margin-bottom: 2em;
+}
 .pane-current-search-clone-of-standard {
 	ul {
 		padding-left: 0;
@@ -298,11 +307,10 @@ p > a {
 		@extend .label-info;
 		.facetapi-active {
 			color:$text-color;
+			font-weight: 400;
 			a {
 				float:right;
 				margin-left:0.25em;
-				content:"\e088";
-				font-family: 'Glyphicons Halflings';
 			}
 		}
 	}
@@ -357,12 +365,11 @@ p > a {
 }
 .bootstrap-twocol-stacked .left,
 .panels-flexible-region-offset_2_9_layout-image {
-	padding-right:1em;
+	padding-right:2em;
 	padding-left:0;
 }
 .region-sidebar-first {
 	margin-right: 1em;
-	margin-left:-15px;
 }
 
 //COURSE INFORMATION PAGE
