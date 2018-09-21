@@ -491,13 +491,11 @@ footer {
 	padding:1em;
 	font-size: 1.35em;
 	font-weight: 400;
+	text-decoration: none;
+	color:$text-color;
 	.lightFont {
 		font-weight: 300;
 	}
-	a {
-		text-decoration: none;
-	}
-
 }
 a:hover, a:focus {
 	.overlay {
