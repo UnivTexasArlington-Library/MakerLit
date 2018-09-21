@@ -474,25 +474,33 @@ footer {
 }
 
 //OVERLAY
-span.overlay {
+.overlay {
 	display: none;
-	height: 200px;
 	width: auto;
 	position: relative;
-	bottom:200px;
-	margin-bottom: -200px;
 }
 .overlay-partner {
 	background-color: rgba(244,244,244,0.8);
+	height: 200px;
 }
 .overlay-featured-lesson {
 	background-color: rgba(177,201,202,0.83);
-	height: 220px;
-	bottom:220px;
-	padding:2em;
+	height: 221px;
+	bottom:221px;
+	margin-bottom:-221px;
+	padding:1em;
+	font-size: 1.35em;
+	font-weight: 400;
+	.lightFont {
+		font-weight: 300;
+	}
+	a {
+		text-decoration: none;
+	}
+
 }
 a:hover, a:focus {
-	span.overlay {
+	.overlay {
 		display: block;
 	}
 }

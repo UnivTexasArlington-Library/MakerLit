@@ -6833,24 +6833,29 @@ footer {
   border-top-width: 0;
   font-size: 0.9em; }
 
-span.overlay {
+.overlay {
   display: none;
-  height: 200px;
   width: auto;
-  position: relative;
-  bottom: 200px;
-  margin-bottom: -200px; }
+  position: relative; }
 
 .overlay-partner {
-  background-color: rgba(244, 244, 244, 0.8); }
+  background-color: rgba(244, 244, 244, 0.8);
+  height: 200px; }
 
 .overlay-featured-lesson {
   background-color: rgba(177, 201, 202, 0.83);
-  height: 220px;
-  bottom: 220px;
-  padding: 2em; }
+  height: 221px;
+  bottom: 221px;
+  margin-bottom: -221px;
+  padding: 1em;
+  font-size: 1.35em;
+  font-weight: 400; }
+  .overlay-featured-lesson .lightFont {
+    font-weight: 300; }
+  .overlay-featured-lesson a {
+    text-decoration: none; }
 
-a:hover span.overlay, a:focus span.overlay {
+a:hover .overlay, a:focus .overlay {
   display: block; }
 
 /*# sourceMappingURL=style.css.map */
