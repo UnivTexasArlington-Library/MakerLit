@@ -6532,7 +6532,8 @@ p > a {
       /*margin-bottom: 0;*/
       text-align: center; }
       #block-superfish-1 li a:hover, #block-superfish-1 li a:focus {
-        text-decoration: none; }
+        text-decoration: none;
+        color: #783e3c; }
   #block-superfish-1 .sf-depth-1 {
     text-transform: uppercase;
     font-weight: 300; }
@@ -6543,7 +6544,7 @@ p > a {
       padding: 0.5em; }
   #block-superfish-1 .sf-menu ul {
     background-color: #fff;
-    box-shadow: 10px 10px 50px #f4f4f4; }
+    border: 1px solid #b1c9ca; }
   #block-superfish-1 .sf-depth-2 {
     text-transform: capitalize;
     font-weight: 400;

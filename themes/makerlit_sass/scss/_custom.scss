@@ -85,6 +85,7 @@ p > a {
 			text-align: center;
 			&:hover, &:focus {
 				text-decoration: none;
+				color:$link-color;
 			}
 		}
 	}
@@ -101,7 +102,7 @@ p > a {
 	}
 	.sf-menu ul {
 		background-color: #fff;
-		box-shadow: 10px 10px 50px $brand-info;
+		border:1px solid $brand-primary;
 	}
 	.sf-depth-2 {
 		text-transform: capitalize;
