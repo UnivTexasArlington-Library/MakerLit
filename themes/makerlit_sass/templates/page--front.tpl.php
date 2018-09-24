@@ -78,12 +78,11 @@
   <div class="row row-logos">
       <?php if (!empty($page['logos_uta'])): ?>
     <div class="col-sm-2">
-      <?php print render($page['logos_uta']); ?>
-    </div>
+      <?php print render($page['logos_uta']); ?></div>
       <?php endif; ?>
     <div class=" col-sm-8 navbar">
         <?php if ($logo): ?>
-      <a class="logo navbar-btn" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
+      <a class="logo navbar-btn no-decoration" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
         <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
       </a>
         <?php endif; ?>
