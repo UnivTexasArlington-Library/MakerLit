@@ -6468,7 +6468,7 @@ h1 {
 h2 {
   text-transform: uppercase;
   font-weight: 400; }
-  h2 small {
+  h2 .small {
     text-transform: initial;
     margin-left: 0.75em;
     text-decoration: underline; }
@@ -6533,6 +6533,8 @@ p > a {
   #block-superfish-1 .nav-justified > li > a {
     color: #424242;
     font-size: 1.5em; }
+    #block-superfish-1 .nav-justified > li > a:hover, #block-superfish-1 .nav-justified > li > a:focus {
+      color: #783e3c; }
   #block-superfish-1 li.sf-depth-1 {
     text-transform: uppercase;
     font-weight: 300; }
@@ -6563,6 +6565,10 @@ p > a {
     /* Blog */
     content: url(/sites/library-test.uta.edu.makerliteracies/files/blog-comment-speech-bubble-symbol_32x32.png); }
 
+#searchBox:hover {
+  background-color: transparent;
+  color: #783e3c; }
+
 #block-views-exp-courses-search-page-1 {
   display: inline-block;
   float: right; }
@@ -6591,17 +6597,18 @@ p > a {
   left: 25%;
   right: 25%;
   bottom: auto; }
-  .carousel-caption .caoursel-caption-body {
+  .carousel-caption .carousel-caption-body {
     padding: 2em;
     background-color: rgba(255, 255, 255, 0.83);
     color: #424242;
     text-shadow: none;
     font-weight: 300;
     margin-bottom: 1em; }
-    .carousel-caption .caoursel-caption-body h3 {
+    .carousel-caption .carousel-caption-body h3 {
       text-transform: uppercase;
-      margin-top: 0; }
-    .carousel-caption .caoursel-caption-body p {
+      margin-top: 0;
+      font-size: 1em; }
+    .carousel-caption .carousel-caption-body p {
       text-align: left; }
 
 .featured-blue,
@@ -6797,7 +6804,9 @@ p > a {
   #views-bootstrap-thumbnail-1 .thumbnail .caption,
   #views-bootstrap-thumbnail-2 .thumbnail .caption,
   #views-bootstrap-thumbnail-3 .thumbnail .caption {
-    min-height: 90px; }
+    min-height: 90px;
+    padding-left: 0;
+    padding-right: 0; }
 #views-bootstrap-thumbnail-1 h3,
 #views-bootstrap-thumbnail-2 h3,
 #views-bootstrap-thumbnail-3 h3 {
@@ -6873,7 +6882,13 @@ footer {
 a:hover .overlay, a:focus .overlay {
   display: block; }
 
+@media (min-width: 1200px) {
+  .main-container {
+    min-height: 31em; } }
 @media (min-width: 992px) and (max-width: 1199px) {
+  .lead {
+    font-size: 1.05em; }
+
   .region-logos-uta img,
   .region-logos-fb img {
     max-height: 30px; }
@@ -6885,13 +6900,18 @@ a:hover .overlay, a:focus .overlay {
   .navbar .name {
     font-size: 2.8em; }
 
+  #block-superfish-1 .nav-justified > li > a {
+    font-size: 1.2em; }
+
   .carousel-caption {
     left: 15%;
     right: 15%;
-    top: 5%;
-    padding: 1em 2em 0; }
+    top: 5%; }
+    .carousel-caption .carousel-caption-body {
+      padding: 1.5em; }
 
-  .carousel-caption-button {
-    bottom: 10%; } }
+  a:hover .overlay,
+  a:focus .overlay {
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */

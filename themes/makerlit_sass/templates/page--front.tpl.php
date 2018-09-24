@@ -77,10 +77,15 @@
 <header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
   <div class="row row-logos">
       <?php if (!empty($page['logos_uta'])): ?>
-    <div class="col-sm-2">
+    <div class="col-sm-2 col-xs-6">
       <?php print render($page['logos_uta']); ?></div>
       <?php endif; ?>
-    <div class=" col-sm-8 navbar">
+          <?php if (!empty($page['logos_fb'])): ?>
+    <div class="col-xs-6 hidden-sm hidden-md hidden-lg">
+      <?php print render($page['logos_fb']); ?>
+    </div>
+      <?php endif; ?>
+    <div class="col-sm-8 col-xs-12 navbar">
         <?php if ($logo): ?>
       <a class="logo navbar-btn no-decoration" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
         <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
@@ -91,7 +96,7 @@
         <?php endif; ?>
     </div>
       <?php if (!empty($page['logos_fb'])): ?>
-    <div class="col-sm-2">
+    <div class="col-sm-2 hidden-xs">
       <?php print render($page['logos_fb']); ?>
     </div>
       <?php endif; ?>

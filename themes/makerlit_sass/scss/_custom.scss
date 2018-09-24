@@ -9,7 +9,7 @@ h1 {
 h2 {
 	text-transform: uppercase;
 	font-weight: $font-regular;
-	small {
+	.small {
 		text-transform: initial;
 		margin-left:0.75em;
 		text-decoration: underline;
@@ -84,6 +84,9 @@ p > a {
 	.nav-justified > li > a {
 		color:$text-color;
 		font-size: 1.5em;
+		&:hover, &:focus {
+			color:$link-color;
+		}
 	}
 	li.sf-depth-1 {
 		text-transform: uppercase;
@@ -120,6 +123,10 @@ p > a {
 		content:url(/sites/library-test.uta.edu.makerliteracies/files/blog-comment-speech-bubble-symbol_32x32.png);
 	}
 
+}
+#searchBox:hover {
+	background-color: transparent;
+	color:$link-color;
 }
 #block-views-exp-courses-search-page-1 {
 	display: inline-block;
@@ -158,8 +165,7 @@ p > a {
 	left:25%;
 	right:25%;
 	bottom:auto;
-
-	.caoursel-caption-body {
+	.carousel-caption-body {
 		padding:2em;
 		background-color: rgba(255,255,255,0.83);
 		color:$text-color;
@@ -169,6 +175,7 @@ p > a {
 		h3 {
 			text-transform: uppercase;
 			margin-top:0;
+			font-size: 1em;
 		}
 		p {
 			text-align: left;
@@ -422,6 +429,8 @@ p > a {
 		}
 		.caption {
 			min-height: 90px;
+			padding-left:0;
+			padding-right:0;
 		}
 	}
 	h3 {
@@ -513,7 +522,15 @@ a:hover, a:focus {
 		display: block;
 	}
 }
+@media (min-width: $screen-lg-min) {
+	.main-container {
+		min-height: 31em;
+	}
+}
 @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+	.lead {
+		font-size: 1.05em;
+	}
 	.region-logos-uta img,
 	.region-logos-fb img {
 		max-height: 30px;
@@ -529,14 +546,21 @@ a:hover, a:focus {
 			font-size: 2.8em;
 		}
 	}
+	#block-superfish-1 .nav-justified > li > a {
+		font-size: 1.2em;
+	}
 	.carousel-caption {
 		left:15%;
 		right:15%;
 		top:5%;
-		padding:1em 2em 0;
+		.carousel-caption-body {
+			padding:1.5em;
+		}
 	}
-	.carousel-caption-button {
-		bottom:10%;
-
+	a:hover, 
+	a:focus {
+		.overlay {
+			display: none;
+		}
 	}
 }
