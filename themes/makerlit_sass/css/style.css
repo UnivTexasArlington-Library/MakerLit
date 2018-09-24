@@ -6495,6 +6495,9 @@ p > a {
 .lead {
   font-size: 1.25em; }
 
+.no-decoration {
+  text-decoration: none !important; }
+
 .region-logos-uta img,
 .region-logos-fb img {
   max-height: 50px;
@@ -6515,7 +6518,8 @@ p > a {
   margin-bottom: 0; }
   .navbar .logo img {
     vertical-align: bottom;
-    height: 100px; }
+    height: 100px;
+    text-decoration: none !important; }
   .navbar .name {
     text-transform: uppercase;
     font-size: 3.6em;
@@ -6551,7 +6555,7 @@ p > a {
     vertical-align: bottom; }
   #block-superfish-1 #menu-694-1 a::before {
     /* About Icon*/
-    content: url(/sites/library-tes.uta.edu.makerliteracies/files/About32x32.png); }
+    content: url(/sites/library-test.uta.edu.makerliteracies/files/About32x32.png); }
   #block-superfish-1 #menu-503-1 a::before {
     /* Project Personnel Link*/
     content: url(/sites/library-test.uta.edu.makerliteracies/files/003-person32x32.png); }
@@ -6840,6 +6844,9 @@ footer {
   background-color: #b1c9ca;
   border-top-width: 0;
   font-size: 0.9em; }
+
+.region-footer-right {
+  text-align: right; }
 
 .overlay {
   display: none;

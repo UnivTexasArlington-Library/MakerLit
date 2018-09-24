@@ -38,6 +38,9 @@ p > a {
 .lead {
 	font-size: 1.25em;
 }
+.no-decoration {
+	text-decoration: none !important;
+}
 //HEADER
 .region-logos-uta,
 .region-logos-fb {
@@ -62,6 +65,7 @@ p > a {
 	.logo img{
 		vertical-align: bottom;
 		height: 100px;
+		text-decoration: none !important;
 	}
 	
 	.name {
@@ -107,7 +111,7 @@ p > a {
 		vertical-align: bottom;
 	}
 	#menu-694-1 a::before { /* About Icon*/
-		content:url(/sites/library-tes.uta.edu.makerliteracies/files/About32x32.png);
+		content:url(/sites/library-test.uta.edu.makerliteracies/files/About32x32.png);
 	}
 	#menu-503-1 a::before { /* Project Personnel Link*/
 		content:url(/sites/library-test.uta.edu.makerliteracies/files/003-person32x32.png);
@@ -467,13 +471,16 @@ p > a {
 	vertical-align: super;
 	font-size: 0.75em;
 }
+//FOOTER
 footer {
 	padding-bottom: 1em;
 	background-color: $brand-primary;
 	border-top-width:0;
 	font-size: 0.9em;
 }
-
+.region-footer-right {
+	text-align: right;
+}
 //OVERLAY
 .overlay {
 	display: none;
