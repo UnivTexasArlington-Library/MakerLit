@@ -26,8 +26,12 @@
     print $q;
   ?>
 <?php endif; ?>
+<div class="dropdown">
+  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+   <span class="glyphicon glyphicon-search"></span>
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dLabel">
 <div class="views-exposed-form">
-  <span class="glyphicon glyphicon-glass"></span>
   <div class="views-exposed-widgets clearfix">
     <?php foreach ($widgets as $id => $widget): ?>
       <div id="<?php print $widget->id; ?>-wrapper" class="views-exposed-widget views-widget-<?php print $id; ?>">
@@ -79,3 +83,5 @@
     <?php endif; ?>
   </div>
 </div>
+</ul>
+</div>s
