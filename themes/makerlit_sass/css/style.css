@@ -6596,7 +6596,8 @@ p > a {
     background-color: rgba(255, 255, 255, 0.83);
     color: #424242;
     text-shadow: none;
-    font-weight: 300; }
+    font-weight: 300;
+    margin-bottom: 1em; }
     .carousel-caption .caoursel-caption-body h3 {
       text-transform: uppercase;
       margin-top: 0; }
