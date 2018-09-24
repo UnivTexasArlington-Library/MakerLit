@@ -480,8 +480,13 @@ footer {
 	position: relative;
 }
 .overlay-partner {
-	background-color: rgba(244,244,244,0.8);
+	background-color: rgba(244,244,244,0.5);
 	height: 200px;
+	bottom:200px;
+	margin-bottom: -200px;
+}
+.overlay-partner-uta {
+	width: 161px;
 }
 .overlay-featured-lesson {
 	background-color: rgba(177,201,202,0.83);
