@@ -52,7 +52,10 @@ p > a {
 .region-logos-fb {
 	float:right;
 }
-
+.region-header {
+	padding-top:1.5em;
+	padding-bottom: 1.5em;
+}
 .navbar {
 	text-align: center;
 	margin-bottom: 0;
@@ -73,10 +76,12 @@ p > a {
 
 // MAIN MENU
 #block-superfish-1 {
+	display: inline-block;
 	.nav-justified > li > a {
 		color:$text-color;
+		font-size: 1.5em;
 	}
-	.sf-depth-1 {
+	li.sf-depth-1 {
 		text-transform: uppercase;
 		font-weight: 300;
 		a.active {
@@ -88,34 +93,33 @@ p > a {
 		background-color: #fff;
 		border:1px solid $brand-primary;
 	}
-	.sf-depth-2 {
+	li.sf-depth-2 {
 		text-transform: capitalize;
 		font-weight: $font-regular;
 		text-align: left;
+		padding: 10px 15px;
 	}
+	#menu-694-1 a::before,
 	#menu-503-1 a::before, 
 	#menu-469-1 a::before {
 		margin-right: 0.25em;
 		float:left;
+		vertical-align: bottom;
 	}
-	#menu-503-1 a::before { /* Project Personel Link*/
+	#menu-694-1 a::before { /* About Icon*/
+		content:url(/sites/library-tes.uta.edu.makerliteracies/files/About32x32.png);
+	}
+	#menu-503-1 a::before { /* Project Personnel Link*/
 		content:url(/sites/library-test.uta.edu.makerliteracies/files/003-person32x32.png);
-
 	}
 	#menu-469-1 a::before { /* Blog */
 		content:url(/sites/library-test.uta.edu.makerliteracies/files/blog-comment-speech-bubble-symbol_32x32.png);
 	}
-	#menu-504-1 a { /* Search */
-		visibility: hidden;
-		max-width:25px;
-		&::before {
-			font-family: 'Glyphicons Halflings';
-			content:"\e003"; 
-			visibility: visible;
 
-		}
-	}
-
+}
+#block-views-exp-courses-search-page-1 {
+	display: inline-block;
+	float:right;
 }
 
 #views-exposed-form-courses-search-page-1 {
@@ -432,19 +436,16 @@ p > a {
 	h2.pane-title {
 		margin-bottom:2em;
 	}
-	.partner-uta {
+	/*.partner-uta {
 		background-color: $brand-info;
 		border:1px solid #0064b1;
 		padding:10px;
 		height: 85px;
 		width: 260px;
-	}
+	}*/
 	img {
 		max-height: 200px;
 		width: auto;
-		&:hover, &:focus {
-			background-color: lighten($gray-base, 93.5%);
-		}
 	}
 }
 // COURSE INFORMATION PAGES
