@@ -6587,27 +6587,21 @@ p > a {
   height: auto !important; }
 
 .carousel-caption {
-  background-color: rgba(255, 255, 255, 0.83);
-  color: #424242;
-  text-shadow: none;
-  font-weight: 300;
   top: 25%;
   left: 25%;
   right: 25%;
-  bottom: auto;
-  padding: 2em; }
-  .carousel-caption h3 {
-    text-transform: uppercase;
-    margin-top: 0; }
-  .carousel-caption p {
-    text-align: left; }
-
-.carousel-caption-button {
-  position: absolute;
-  left: 25%;
-  right: 25%;
-  bottom: 22%;
-  text-align: center; }
+  bottom: auto; }
+  .carousel-caption .caoursel-caption-body {
+    padding: 2em;
+    background-color: rgba(255, 255, 255, 0.83);
+    color: #424242;
+    text-shadow: none;
+    font-weight: 300; }
+    .carousel-caption .caoursel-caption-body h3 {
+      text-transform: uppercase;
+      margin-top: 0; }
+    .carousel-caption .caoursel-caption-body p {
+      text-align: left; }
 
 .featured-blue,
 .featured-grey {
@@ -6877,5 +6871,26 @@ footer {
 
 a:hover .overlay, a:focus .overlay {
   display: block; }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .region-logos-uta img,
+  .region-logos-fb img {
+    max-height: 30px; }
+
+  .navbar .logo {
+    padding-right: 0; }
+    .navbar .logo img {
+      max-height: 75px; }
+  .navbar .name {
+    font-size: 2.8em; }
+
+  .carousel-caption {
+    left: 15%;
+    right: 15%;
+    top: 5%;
+    padding: 1em 2em 0; }
+
+  .carousel-caption-button {
+    bottom: 10%; } }
 
 /*# sourceMappingURL=style.css.map */
