@@ -159,15 +159,26 @@ p > a {
 		margin-top:0;
 	}
 }
-//HOME
-.panels-flexible-homepage_layout {
-	.panels-flexible-row {
-		padding-bottom:2em;
+//BLOG POSTS
+.blog-teaser{
+	h3 {
+			margin-top:0;
+			border-bottom: 0.25em dotted $brand-info;
+			padding-bottom:0.25em;
+			font-size: 2em;
+		}
+	.views-field-field-blog-author {
+		margin-right: 0.75em;
 	}
+	.views-field-field-blog-author, 
+	.views-field-created {
+		font-size: 1.35em;
+	}
+	.views-field-body {
+		margin-top:1em;
+	}
+
 }
-
-
-
 //LESSON PLANS PAGE
 .page-lesson-plans {
 	.bootstrap-twocol-stacked {

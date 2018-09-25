@@ -6630,8 +6630,18 @@ p > a {
 #views-exposed-form-courses-search-page-1 #edit-submit-courses-search {
   margin-top: 0; }
 
-.panels-flexible-homepage_layout .panels-flexible-row {
-  padding-bottom: 2em; }
+.blog-teaser h3 {
+  margin-top: 0;
+  border-bottom: 0.25em dotted #f4f4f4;
+  padding-bottom: 0.25em;
+  font-size: 2em; }
+.blog-teaser .views-field-field-blog-author {
+  margin-right: 0.75em; }
+.blog-teaser .views-field-field-blog-author,
+.blog-teaser .views-field-created {
+  font-size: 1.35em; }
+.blog-teaser .views-field-body {
+  margin-top: 1em; }
 
 .page-lesson-plans .bootstrap-twocol-stacked .row:nth-child(1) {
   min-height: 2.5em; }
@@ -6880,10 +6890,10 @@ footer {
 .views-field-created {
   font-size: 1.35em; }
 
-.blog-teaser {
+.front .blog-teaser {
   margin-top: 2em;
   margin-bottom: 3em; }
-  .blog-teaser h3 {
+  .front .blog-teaser h3 {
     margin-top: 0;
     border-bottom: 0.25em dotted #f4f4f4;
     padding-bottom: 0.25em;

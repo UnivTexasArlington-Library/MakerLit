@@ -135,15 +135,16 @@
 .views-field-created {
 	font-size: 1.35em;
 }
-
-.blog-teaser {
-	margin-top:2em;
-	margin-bottom:3em;
-	h3 {
-		margin-top:0;
-		border-bottom: 0.25em dotted $brand-info;
-		padding-bottom:0.25em;
-		font-size: 2em;
+.front {
+	.blog-teaser {
+		margin-top:2em;
+		margin-bottom:3em;
+		h3 {
+			margin-top:0;
+			border-bottom: 0.25em dotted $brand-info;
+			padding-bottom:0.25em;
+			font-size: 2em;
+		}
 	}
 }
 // PARTNERS inline-block
