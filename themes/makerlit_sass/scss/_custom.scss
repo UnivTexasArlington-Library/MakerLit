@@ -109,25 +109,27 @@ p > a {
 			color:$text-color;
 			&:hover, &:focus, .active {
 				color:$link-color;
+				text-decoration: none;
 			}
 		}
 	}
-	/*#menu-694-1 a::before,*/
+	#menu-694-1 a::before,
 	#menu-503-1 a::before, 
 	#menu-469-1 a::before {
+		font-family:"Flaticon";
 		margin-right: 0.25em;
 		float:left;
 		vertical-align: bottom;
 	}
 	#menu-694-1 a::before { /* About Icon*/
+		content: $font-Flaticon-info;
+	}
+	#menu-503-1 a::before { /* Project Personnel Link*/
 		font-family:"Flaticon";
 		content: $font-Flaticon-blog;
 	}
-	#menu-503-1 a::before { /* Project Personnel Link*/
-		content:url(/sites/library-test.uta.edu.makerliteracies/files/003-person32x32.png);
-	}
 	#menu-469-1 a::before { /* Blog */
-		content:url(/sites/library-test.uta.edu.makerliteracies/files/blog-comment-speech-bubble-symbol_32x32.png);
+		content: $font-Flaticon-status;
 	}
 
 }
