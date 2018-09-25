@@ -174,10 +174,9 @@ p > a {
 	.views-field-created {
 		font-size: 1.35em;
 	}
-	.views-field-body {
-		margin-top:1em;
-	}
-
+}
+.blog-body {
+	margin-top:1em;
 }
 //LESSON PLANS PAGE
 .page-lesson-plans {
@@ -187,6 +186,7 @@ p > a {
 		}
 	}
 }
+.blog-teaser,
 .lesson-row {
 	margin-bottom: 2em;
 }
@@ -337,6 +337,9 @@ p > a {
 .course-label {
 	font-weight: 400;
 	font-size: 30px;
+}
+.clear-line-style > ul{
+	@extend .list-unstyled;
 }
 //PERSONNEL PAGES
 .glyphicon-new-window {
