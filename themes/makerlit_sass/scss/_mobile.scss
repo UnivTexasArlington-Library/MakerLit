@@ -1,0 +1,66 @@
+@media (min-width: $screen-lg-min) {
+	.main-container {
+		min-height: 31em;
+	}
+}
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+	.lead {
+		font-size: 1.05em;
+	}
+	.region-logos-uta img,
+	.region-logos-fb img {
+		max-height: 30px;
+	}
+	.navbar {
+		.logo {
+			padding-right:0;
+			img {
+				max-height: 75px;
+			}
+		}	
+		.name {
+			font-size: 2.8em;
+		}
+	}
+	#block-superfish-1 .nav-justified > li > a {
+		font-size: 1.2em;
+	}
+	.carousel-caption {
+		left:15%;
+		right:15%;
+		top:5%;
+		.carousel-caption-body {
+			padding:1.5em;
+		}
+	}
+	a:hover, 
+	a:focus {
+		.overlay {
+			display: none;
+		}
+	}
+}
+// MOBILE 767px or smaller
+@media (max-width: $screen-xs-max)  {
+	body {
+		font-size: 16px;
+	}
+	.region-logos-uta img,
+	.region-logos-fb img {
+		max-height: 25px;
+	}
+	.navbar {
+		.logo {
+			padding-right:0;
+			img {
+				max-height: 75px;
+			}
+		}	
+		.name {
+			font-size: 2.8em;
+		}
+	}
+
+
+
+}

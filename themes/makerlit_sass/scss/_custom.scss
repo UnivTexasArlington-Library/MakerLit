@@ -16,7 +16,8 @@ h2 {
 	}
 }
 .blog-icon::before{
-	content:url(/sites/library-test.uta.edu.makerliteracies/files/blog-comment-speech-bubble-symbol_32x32.png);
+	font-family: "Flaticon";
+	content: $font-Flaticon-blog;
 	margin-left:-0.75em;
 	margin-right:0.75em;
 }
@@ -113,27 +114,26 @@ p > a {
 			}
 		}
 	}
+	#menu-694-1 a,
+	#menu-694-1 a {
+		line-height: 2.25em;
+	}
 	#menu-694-1 a::before,
 	#menu-503-1 a::before, 
 	#menu-469-1 a::before {
 		font-family:"Flaticon";
+		font-size: 2em;
 		margin-right: 0.25em;
 		float:left;
 		/*vertical-align: bottom;*/
 	}
-	#menu-694-1 a {
-		line-height: 2.5em;
-		&::before { /* About Icon*/
-			content: $font-Flaticon-info;
-		}
+	#menu-694-1 a::before  { /* About */
+		content: $font-Flaticon-info;
 	}
-	#menu-469-1 a { /* Blog */
-		line-height: 2.5em;
-		&::before { 
-			content: $font-Flaticon-blog;
-		}		
+	#menu-469-1 a::before  { /* Blog */
+		content: $font-Flaticon-blog;
 	}
-	#menu-503-1 a::before { /* Project Personnel Link*/
+	#menu-503-1 a::before { /* Project Personnel */
 		content: $font-Flaticon-status;
 	}
 }
@@ -165,82 +165,20 @@ p > a {
 		padding-bottom:2em;
 	}
 }
-// HERO
-.panels-flexible-region-homepage_layout-hero,
-.featured-blue,
-.featured-grey {
-	width: 100%;
-}
-.carousel-inner img {
-	width: 100% !important;
-	height: auto !important;
-}
-.carousel-caption {
-	top:25%;
-	left:25%;
-	right:25%;
-	bottom:auto;
-	.carousel-caption-body {
-		padding:2em;
-		background-color: rgba(255,255,255,0.83);
-		color:$text-color;
-		text-shadow:none;
-		font-weight: 300; 
-		margin-bottom: 1em;
-		h3 {
-			text-transform: uppercase;
-			margin-top:0;
-			font-size: 1em;
-		}
-		p {
-			text-align: left;
+
+
+
+//LESSON PLANS PAGE
+.page-lesson-plans {
+	.bootstrap-twocol-stacked {
+		.row:nth-child(1) {
+			min-height:2.5em;
 		}
 	}
 }
-
-//FEATURED
-.featured-blue,
-.featured-grey {
-	margin:2em 0;
+.lesson-row {
+	margin-bottom: 2em;
 }
-
-//FEATURED BLUE
-.featured-blue{
-	background-color: rgba(177,201,202,0.37);
-	.quote-row {
-		margin:2em 0;
-	}
-	img {
-		border-radius:50%;
-		margin-top:1em;
-		margin-right: 2em;
-		float:right;
-		border-image-source: url(/sites/library-test.uta.edu.makerliteracies/files/White-circle.png);
-		border-image-width: 100%;
-		border-image-outset:8px;
-		border-image-slice:50%;
-	}
-	.quote-text {
-		font-family:$font-family-serif;
-		font-size:30px;
-	}
-	.quote-author {
-		font-size: 27px;
-		color:#000000;
-		float: right;
-	}
-	.carousel-control {
-		width:5%;
-	}
-}
-//FEATURED GREY
-.featured-grey {
-	background-color: $brand-info;
-	p:last-child {
-		margin-bottom:2em;
-	}
-}
-
 //ACCORDIONS - FACETS
 #block-quicktabs-filter-by {
 	margin-left:-15px;
@@ -297,52 +235,6 @@ p > a {
 .ui-icon-triangle-1-s { /*close accordion*/
 	background-position: -32px -192px;
 }
-
-//FEATURED LESSONS
-.featured-lessons-title {
-	.pane-title, .pane-content {
-		display: inline-block;
-	}
-}
-.pane-featured-courses-panel-pane-5 {
-	margin-top:2em;
-}
-
-.views-bootstrap-grid-1 {
-	.views-field-field-image {
-		.overlay {
-			display: none;
-			position: absolute;
-			top:0;
-			right:15px;
-			left:15px;
-			height: 100%;
-			padding:2em 1em;
-			background-color: rgba(177,201,202,0.93);
-			font-weight: 300;
-			font-size: 27px;
-			.label {
-				font-weight: 400;
-			}
-		}
-		&:hover, &:focus {
-			.overlay {
-				display:block;
-			}
-		}
-	}
-}
-//LESSON PLANS PAGE
-.page-lesson-plans {
-	.bootstrap-twocol-stacked {
-		.row:nth-child(1) {
-			min-height:2.5em;
-		}
-	}
-}
-.lesson-row {
-	margin-bottom: 2em;
-}
 .pane-current-search-clone-of-standard {
 	ul {
 		padding-left: 0;
@@ -361,44 +253,7 @@ p > a {
 		}
 	}
 }
-// FEATURED Blog posts
-.featured-blog {
-	.caption {
-		position: relative;
-		top:-250px;
-		background-color:#fff;
-		padding:2em;
-		width:17em;
-		h3 {
-			margin:0;
-			font-size: 1.5em;
-			text-transform: uppercase;
-			border-bottom: 0.25em dotted $brand-info;
-			padding-bottom:0.25em;
-			a {
-				color:$gray-base;
-			}
-		}
-	}
-}
-.views-field-field-blog-author {
-	margin-right: 1em;
-}
-.views-field-field-blog-author, 
-.views-field-created {
-	font-size: 1.35em;
-}
 
-.blog-teaser {
-	margin-top:2em;
-	margin-bottom:3em;
-	h3 {
-		margin-top:0;
-		border-bottom: 0.25em dotted $brand-info;
-		padding-bottom:0.25em;
-		font-size: 2em;
-	}
-}
 
 //BREADCRUMBS
 .breadcrumb {
@@ -457,24 +312,7 @@ p > a {
 		}
 	}
 }
-// PARTNERS inline-block
-#partners {
-	margin-bottom:2em;
-	h2.pane-title {
-		margin-bottom:2em;
-	}
-	/*.partner-uta {
-		background-color: $brand-info;
-		border:1px solid #0064b1;
-		padding:10px;
-		height: 85px;
-		width: 260px;
-	}*/
-	img {
-		max-height: 200px;
-		width: auto;
-	}
-}
+
 // COURSE INFORMATION PAGES
 .node-type-course-information {
 	.views-field {
@@ -503,104 +341,4 @@ footer {
 }
 .region-footer-right {
 	text-align: right;
-}
-//OVERLAY
-.overlay {
-	display: none;
-	width: auto;
-	position: relative;
-}
-.overlay-partner {
-	background-color: rgba(244,244,244,0.5);
-	height: 200px;
-	bottom:200px;
-	margin-bottom: -200px;
-}
-.overlay-partner-uta {
-	width: 161px;
-}
-.overlay-featured-lesson {
-	background-color: rgba(177,201,202,0.83);
-	height: 221px;
-	bottom:221px;
-	margin-bottom:-221px;
-	padding:1em;
-	font-size: 1.35em;
-	font-weight: 400;
-	text-decoration: none;
-	color:$text-color;
-	.lightFont {
-		font-weight: 300;
-	}
-}
-a:hover, a:focus {
-	.overlay {
-		display: block;
-	}
-}
-@media (min-width: $screen-lg-min) {
-	.main-container {
-		min-height: 31em;
-	}
-}
-@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
-	.lead {
-		font-size: 1.05em;
-	}
-	.region-logos-uta img,
-	.region-logos-fb img {
-		max-height: 30px;
-	}
-	.navbar {
-		.logo {
-			padding-right:0;
-			img {
-				max-height: 75px;
-			}
-		}	
-		.name {
-			font-size: 2.8em;
-		}
-	}
-	#block-superfish-1 .nav-justified > li > a {
-		font-size: 1.2em;
-	}
-	.carousel-caption {
-		left:15%;
-		right:15%;
-		top:5%;
-		.carousel-caption-body {
-			padding:1.5em;
-		}
-	}
-	a:hover, 
-	a:focus {
-		.overlay {
-			display: none;
-		}
-	}
-}
-// MOBILE 767px or smaller
-@media (max-width: $screen-xs-max)  {
-	body {
-		font-size: 16px;
-	}
-	.region-logos-uta img,
-	.region-logos-fb img {
-		max-height: 25px;
-	}
-	.navbar {
-		.logo {
-			padding-right:0;
-			img {
-				max-height: 75px;
-			}
-		}	
-		.name {
-			font-size: 2.8em;
-		}
-	}
-
-
-
 }

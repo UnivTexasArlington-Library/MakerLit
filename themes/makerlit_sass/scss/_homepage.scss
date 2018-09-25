@@ -1,0 +1,200 @@
+//HOME PAGE STYLES//
+// HERO
+.panels-flexible-region-homepage_layout-hero,
+.featured-blue,
+.featured-grey {
+	width: 100%;
+}
+.carousel-inner img {
+	width: 100% !important;
+	height: auto !important;
+}
+.carousel-caption {
+	top:25%;
+	left:25%;
+	right:25%;
+	bottom:auto;
+	.carousel-caption-body {
+		padding:2em;
+		background-color: rgba(255,255,255,0.83);
+		color:$text-color;
+		text-shadow:none;
+		font-weight: 300; 
+		margin-bottom: 1em;
+		h3 {
+			text-transform: uppercase;
+			margin-top:0;
+			font-size: 1em;
+		}
+		p {
+			text-align: left;
+		}
+	}
+}
+//FEATURED
+.featured-blue,
+.featured-grey {
+	margin:2em 0;
+}
+
+//FEATURED BLUE
+.featured-blue{
+	background-color: rgba(177,201,202,0.37);
+	.quote-row {
+		margin:2em 0;
+	}
+	img {
+		border-radius:50%;
+		margin-top:1em;
+		margin-right: 2em;
+		float:right;
+		border-image-source: url(/sites/library-test.uta.edu.makerliteracies/files/White-circle.png);
+		border-image-width: 100%;
+		border-image-outset:8px;
+		border-image-slice:50%;
+	}
+	.quote-text {
+		font-family:$font-family-serif;
+		font-size:30px;
+	}
+	.quote-author {
+		font-size: 27px;
+		color:#000000;
+		float: right;
+	}
+	.carousel-control {
+		width:5%;
+	}
+}
+//FEATURED GREY
+.featured-grey {
+	background-color: $brand-info;
+	p:last-child {
+		margin-bottom:2em;
+	}
+}
+
+//FEATURED LESSONS
+.featured-lessons-title {
+	.pane-title, .pane-content {
+		display: inline-block;
+	}
+}
+.pane-featured-courses-panel-pane-5 {
+	margin-top:2em;
+}
+
+.views-bootstrap-grid-1 {
+	.views-field-field-image {
+		.overlay {
+			display: none;
+			position: absolute;
+			top:0;
+			right:15px;
+			left:15px;
+			height: 100%;
+			padding:2em 1em;
+			background-color: rgba(177,201,202,0.93);
+			font-weight: 300;
+			font-size: 27px;
+			.label {
+				font-weight: 400;
+			}
+		}
+		&:hover, &:focus {
+			.overlay {
+				display:block;
+			}
+		}
+	}
+}
+// FEATURED Blog posts
+.featured-blog {
+	.caption {
+		position: relative;
+		top:-250px;
+		background-color:#fff;
+		padding:2em;
+		width:17em;
+		h3 {
+			margin:0;
+			font-size: 1.5em;
+			text-transform: uppercase;
+			border-bottom: 0.25em dotted $brand-info;
+			padding-bottom:0.25em;
+			a {
+				color:$gray-base;
+			}
+		}
+	}
+}
+.views-field-field-blog-author {
+	margin-right: 1em;
+}
+.views-field-field-blog-author, 
+.views-field-created {
+	font-size: 1.35em;
+}
+
+.blog-teaser {
+	margin-top:2em;
+	margin-bottom:3em;
+	h3 {
+		margin-top:0;
+		border-bottom: 0.25em dotted $brand-info;
+		padding-bottom:0.25em;
+		font-size: 2em;
+	}
+}
+// PARTNERS inline-block
+#partners {
+	margin-bottom:2em;
+	h2.pane-title {
+		margin-bottom:2em;
+	}
+	/*.partner-uta {
+		background-color: $brand-info;
+		border:1px solid #0064b1;
+		padding:10px;
+		height: 85px;
+		width: 260px;
+	}*/
+	img {
+		max-height: 200px;
+		width: auto;
+	}
+}
+//OVERLAY
+.overlay {
+	display: none;
+	width: auto;
+	position: relative;
+}
+.overlay-partner {
+	background-color: rgba(244,244,244,0.5);
+	height: 200px;
+	bottom:200px;
+	margin-bottom: -200px;
+}
+.overlay-partner-uta {
+	width: 161px;
+}
+.overlay-featured-lesson {
+	background-color: rgba(177,201,202,0.83);
+	height: 221px;
+	bottom:221px;
+	margin-bottom:-221px;
+	padding:1em;
+	font-size: 1.35em;
+	font-weight: 400;
+	text-decoration: none;
+	color:$text-color;
+	.lightFont {
+		font-weight: 300;
+	}
+}
+a:hover, a:focus {
+	.overlay {
+		display: block;
+	}
+}
