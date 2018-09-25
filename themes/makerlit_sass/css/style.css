@@ -6597,19 +6597,24 @@ p > a {
     font-family: "Flaticon";
     margin-right: 0.25em;
     float: left;
-    vertical-align: bottom; }
-  #block-superfish-1 #menu-694-1 a::before {
-    /* About Icon*/
-    content: ""; }
+    /*vertical-align: bottom;*/ }
+  #block-superfish-1 #menu-694-1 a {
+    line-height: 2.5em; }
+    #block-superfish-1 #menu-694-1 a::before {
+      /* About Icon*/
+      content: ""; }
+  #block-superfish-1 #menu-469-1 a {
+    /* Blog */
+    line-height: 2.5em; }
+    #block-superfish-1 #menu-469-1 a::before {
+      content: ""; }
   #block-superfish-1 #menu-503-1 a::before {
     /* Project Personnel Link*/
-    font-family: "Flaticon";
-    content: ""; }
-  #block-superfish-1 #menu-469-1 a::before {
-    /* Blog */
     content: ""; }
 
-#searchBox:hover {
+#searchBox:hover,
+#searchBox:focus,
+#searchBox:active {
   background-color: transparent;
   color: #783e3c; }
 
@@ -6792,10 +6797,12 @@ p > a {
     padding-bottom: 0.25em; }
     .featured-blog .caption h3 a {
       color: #000; }
-.featured-blog .views-field-field-blog-author {
-  padding-right: 0.5em; }
-.featured-blog .views-field-field-blog-author,
-.featured-blog .views-field-created {
+
+.views-field-field-blog-author {
+  margin-right: 1em; }
+
+.views-field-field-blog-author,
+.views-field-created {
   font-size: 1.35em; }
 
 .blog-teaser {

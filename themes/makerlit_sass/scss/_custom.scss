@@ -119,21 +119,27 @@ p > a {
 		font-family:"Flaticon";
 		margin-right: 0.25em;
 		float:left;
-		vertical-align: bottom;
+		/*vertical-align: bottom;*/
 	}
-	#menu-694-1 a::before { /* About Icon*/
-		content: $font-Flaticon-info;
+	#menu-694-1 a {
+		line-height: 2.5em;
+		&::before { /* About Icon*/
+			content: $font-Flaticon-info;
+		}
+	}
+	#menu-469-1 a { /* Blog */
+		line-height: 2.5em;
+		&::before { 
+			content: $font-Flaticon-blog;
+		}		
 	}
 	#menu-503-1 a::before { /* Project Personnel Link*/
-		font-family:"Flaticon";
-		content: $font-Flaticon-blog;
-	}
-	#menu-469-1 a::before { /* Blog */
 		content: $font-Flaticon-status;
 	}
-
 }
-#searchBox:hover {
+#searchBox:hover,
+#searchBox:focus,
+#searchBox:active {
 	background-color: transparent;
 	color:$link-color;
 }
@@ -374,14 +380,15 @@ p > a {
 			}
 		}
 	}
-	.views-field-field-blog-author {
-		padding-right: 0.5em;
-	}
-	.views-field-field-blog-author, 
-	.views-field-created {
-		font-size: 1.35em;
-	}
 }
+.views-field-field-blog-author {
+	margin-right: 1em;
+}
+.views-field-field-blog-author, 
+.views-field-created {
+	font-size: 1.35em;
+}
+
 .blog-teaser {
 	margin-top:2em;
 	margin-bottom:3em;
