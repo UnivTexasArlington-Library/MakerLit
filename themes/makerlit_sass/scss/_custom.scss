@@ -120,8 +120,8 @@ p > a {
 		vertical-align: bottom;
 	}
 	#menu-694-1 a::before { /* About Icon*/
-		font-family: $font-family-flaticon;
-		content: "\f101";
+		font-family:"Flaticon";
+		content: $font-Flaticon-blog;
 	}
 	#menu-503-1 a::before { /* Project Personnel Link*/
 		content:url(/sites/library-test.uta.edu.makerliteracies/files/003-person32x32.png);
