@@ -6626,10 +6626,20 @@ p > a {
   display: inline-block;
   float: right; }
 
+.open > .btn-default.dropdown-toggle {
+  background-color: transparent; }
+
+#views-exposed-form-courses-search-page-1 .dropdown-menu {
+  min-width: 262px;
+  border-color: #b1c9ca; }
 #views-exposed-form-courses-search-page-1 .views-exposed-form .views-exposed-widget {
   padding: 0; }
+#views-exposed-form-courses-search-page-1 .views-exposed-widgets {
+  margin: 0.5em;
+  display: block; }
 #views-exposed-form-courses-search-page-1 #edit-search-api-views-fulltext {
-  border-radius: 0; }
+  border-radius: 0;
+  max-width: 150px; }
 #views-exposed-form-courses-search-page-1 #edit-submit-courses-search {
   margin-top: 0; }
 
