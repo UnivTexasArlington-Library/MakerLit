@@ -1,4 +1,10 @@
 //HOME PAGE STYLES//
+//HOMEPAGE LAYOUT
+.panels-flexible-homepage_layout {
+	.panels-flexible-row {
+		padding-bottom:2em;
+	}
+}
 // HERO
 .panels-flexible-region-homepage_layout-hero,
 .featured-blue,
@@ -16,7 +22,7 @@
 	bottom:auto;
 	.carousel-caption-body {
 		padding:2em;
-		background-color: rgba(255,255,255,0.83);
+		background-color: rgba(255,255,255,0.75);
 		color:$text-color;
 		text-shadow:none;
 		font-weight: 300; 
@@ -128,23 +134,10 @@
 		}
 	}
 }
-.views-field-field-blog-author {
-	margin-right: 1em;
-}
-.views-field-field-blog-author, 
-.views-field-created {
-	font-size: 1.35em;
-}
 .front {
 	.blog-teaser {
 		margin-top:2em;
 		margin-bottom:3em;
-		h3 {
-			margin-top:0;
-			border-bottom: 0.25em dotted $brand-info;
-			padding-bottom:0.25em;
-			font-size: 2em;
-		}
 	}
 }
 // PARTNERS inline-block

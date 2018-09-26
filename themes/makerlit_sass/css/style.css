@@ -6567,7 +6567,8 @@ p > a {
     vertical-align: 50%; }
 
 #block-superfish-1 {
-  display: inline-block; }
+  display: inline-block;
+  max-width: 95%; }
   #block-superfish-1 .nav-justified > li > a {
     color: #424242;
     font-size: 1.5em; }
@@ -6788,6 +6789,9 @@ footer {
 .region-footer-right {
   text-align: right; }
 
+.panels-flexible-homepage_layout .panels-flexible-row {
+  padding-bottom: 2em; }
+
 .panels-flexible-region-homepage_layout-hero,
 .featured-blue,
 .featured-grey {
@@ -6804,7 +6808,7 @@ footer {
   bottom: auto; }
   .carousel-caption .carousel-caption-body {
     padding: 2em;
-    background-color: rgba(255, 255, 255, 0.83);
+    background-color: rgba(255, 255, 255, 0.75);
     color: #424242;
     text-shadow: none;
     font-weight: 300;
@@ -6885,21 +6889,9 @@ footer {
     .featured-blog .caption h3 a {
       color: #000; }
 
-.views-field-field-blog-author {
-  margin-right: 1em; }
-
-.views-field-field-blog-author,
-.views-field-created {
-  font-size: 1.35em; }
-
 .front .blog-teaser {
   margin-top: 2em;
   margin-bottom: 3em; }
-  .front .blog-teaser h3 {
-    margin-top: 0;
-    border-bottom: 0.25em dotted #f4f4f4;
-    padding-bottom: 0.25em;
-    font-size: 2em; }
 
 #partners {
   margin-bottom: 2em;

@@ -82,6 +82,7 @@ p > a {
 // MAIN MENU
 #block-superfish-1 {
 	display: inline-block;
+	max-width: 95%;
 	.nav-justified > li > a {
 		color:$text-color;
 		font-size: 1.5em;
