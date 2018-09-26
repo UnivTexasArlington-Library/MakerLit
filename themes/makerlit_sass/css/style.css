@@ -6523,10 +6523,13 @@ p > a {
   padding-left: 0;
   padding-right: 0; }
 
-.inline {
+.inline, .pane-block-8 h2.pane-title,
+.pane-block-9 h2.pane-title, .pane-block-8 .pane-content,
+.pane-block-9 .pane-content {
   display: inline-block; }
 
-.inline-link {
+.inline-link, .pane-block-8 .pane-content,
+.pane-block-9 .pane-content {
   font-size: 1.5em;
   margin-left: 1em; }
 

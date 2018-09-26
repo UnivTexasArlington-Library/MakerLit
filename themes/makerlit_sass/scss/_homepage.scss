@@ -42,7 +42,17 @@
 .featured-grey {
 	margin:2em 0;
 }
-
+// FEATURED TITLES WITH LINKS 
+.pane-block-8,
+.pane-block-9 {
+	h2.pane-title {
+		@extend .inline;
+	}
+	.pane-content {
+		@extend .inline;
+		@extend .inline-link;
+	}
+}
 //FEATURED BLUE
 .featured-blue{
 	background-color: rgba(177,201,202,0.37);
