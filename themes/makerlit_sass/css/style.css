@@ -6643,6 +6643,9 @@ p > a {
 #views-exposed-form-courses-search-page-1 #edit-submit-courses-search {
   margin-top: 0; }
 
+.search-results h2 {
+  margin-top: 0; }
+
 .blog-teaser h3 {
   margin-top: 0;
   border-bottom: 0.25em dotted #f4f4f4;
