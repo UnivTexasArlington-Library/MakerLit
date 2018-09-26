@@ -167,7 +167,11 @@
 		max-height: 200px;
 		width: auto;
 	}
+	
 }
+.uta-center-block {
+		@extend .center-block;
+	}
 //OVERLAY
 .overlay {
 	display: none;
