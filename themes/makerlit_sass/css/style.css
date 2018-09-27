@@ -6742,11 +6742,12 @@ h2.search-results {
 #block-current-search-standard li {
   display: inline-block;
   color: #424242;
-  font-size: 75%; }
+  font-weight: 400; }
   .pane-current-search-clone-of-standard li .facetapi-active,
   #block-current-search-standard li .facetapi-active {
     color: #424242;
-    font-weight: 400; }
+    font-weight: 400;
+    font-size: 75%; }
     .pane-current-search-clone-of-standard li .facetapi-active a,
     #block-current-search-standard li .facetapi-active a {
       float: right;
