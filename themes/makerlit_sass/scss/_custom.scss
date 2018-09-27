@@ -81,10 +81,10 @@ p > a {
 // MAIN MENU
 #block-superfish-1 {
 	display: inline-block;
-	max-width: 95%;
+	/*max-width: 95%;*/
 	.nav-justified > li > a {
 		color:$text-color;
-		font-size: 1.5em;
+		font-size: 1.25em;
 		&:hover, &:focus {
 			color:$link-color;
 		}
@@ -177,6 +177,9 @@ p > a {
 		margin-top:0;
 	}
 }
+#block-current-search-standard {
+	min-height: 2.5em;
+}
 //BLOG POSTS
 .blog-teaser{
 	h3 {
@@ -264,7 +267,8 @@ p > a {
 .ui-icon-triangle-1-s { /*close accordion*/
 	background-position: -32px -192px;
 }
-.pane-current-search-clone-of-standard {
+.pane-current-search-clone-of-standard,
+#block-current-search-standard {
 	ul {
 		padding-left: 0;
 	}

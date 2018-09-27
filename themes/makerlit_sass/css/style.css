@@ -249,7 +249,8 @@ th {
   .dropup > .btn > .caret {
     border-top-color: #000 !important; }
 
-  .label, .pane-current-search-clone-of-standard li {
+  .label, .pane-current-search-clone-of-standard li,
+  #block-current-search-standard li {
     border: 1px solid #000; }
 
   .table {
@@ -4204,7 +4205,8 @@ tbody.collapse.in {
     background-color: #fff;
     cursor: not-allowed; }
 
-.label, .pane-current-search-clone-of-standard li {
+.label, .pane-current-search-clone-of-standard li,
+#block-current-search-standard li {
   display: inline;
   padding: .2em .6em .3em;
   font-size: 75%;
@@ -4215,9 +4217,12 @@ tbody.collapse.in {
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: .25em; }
-  .label:empty, .pane-current-search-clone-of-standard li:empty {
+  .label:empty, .pane-current-search-clone-of-standard li:empty,
+  #block-current-search-standard li:empty {
     display: none; }
-  .btn .label, .btn .pane-current-search-clone-of-standard li, .pane-current-search-clone-of-standard .btn li {
+  .btn .label, .btn .pane-current-search-clone-of-standard li, .pane-current-search-clone-of-standard .btn li,
+  .btn #block-current-search-standard li,
+  #block-current-search-standard .btn li {
     position: relative;
     top: -1px; }
 
@@ -4241,9 +4246,12 @@ a.label:hover, a.label:focus {
   .label-success[href]:hover, .label-success[href]:focus {
     background-color: #dd660a; }
 
-.label-info, .pane-current-search-clone-of-standard li {
+.label-info, .pane-current-search-clone-of-standard li,
+#block-current-search-standard li {
   background-color: #f4f4f4; }
-  .label-info[href]:hover, .pane-current-search-clone-of-standard li[href]:hover, .label-info[href]:focus, .pane-current-search-clone-of-standard li[href]:focus {
+  .label-info[href]:hover, .pane-current-search-clone-of-standard li[href]:hover,
+  #block-current-search-standard li[href]:hover, .label-info[href]:focus, .pane-current-search-clone-of-standard li[href]:focus,
+  #block-current-search-standard li[href]:focus {
     background-color: #dbdbdb; }
 
 .label-warning {
@@ -6148,7 +6156,9 @@ ul li.leaf {
   position: relative; }
   .form-type-password-confirm label {
     display: block; }
-    .form-type-password-confirm label .label, .form-type-password-confirm label .pane-current-search-clone-of-standard li, .pane-current-search-clone-of-standard .form-type-password-confirm label li {
+    .form-type-password-confirm label .label, .form-type-password-confirm label .pane-current-search-clone-of-standard li, .pane-current-search-clone-of-standard .form-type-password-confirm label li,
+    .form-type-password-confirm label #block-current-search-standard li,
+    #block-current-search-standard .form-type-password-confirm label li {
       float: right; }
   .form-type-password-confirm .password-help {
     padding-left: 2em; }
@@ -6340,7 +6350,9 @@ th.radio,
 td.radio {
   display: table-cell; }
 
-.views-display-settings .label, .views-display-settings .pane-current-search-clone-of-standard li, .pane-current-search-clone-of-standard .views-display-settings li {
+.views-display-settings .label, .views-display-settings .pane-current-search-clone-of-standard li, .pane-current-search-clone-of-standard .views-display-settings li,
+.views-display-settings #block-current-search-standard li,
+#block-current-search-standard .views-display-settings li {
   font-size: 100%;
   color: #666666; }
 .views-display-settings .footer {
@@ -6570,10 +6582,10 @@ p > a {
 
 #block-superfish-1 {
   display: inline-block;
-  max-width: 95%; }
+  /*max-width: 95%;*/ }
   #block-superfish-1 .nav-justified > li > a {
     color: #424242;
-    font-size: 1.5em; }
+    font-size: 1.25em; }
     #block-superfish-1 .nav-justified > li > a:hover, #block-superfish-1 .nav-justified > li > a:focus {
       color: #783e3c; }
   #block-superfish-1 li.sf-depth-1 {
@@ -6645,6 +6657,9 @@ p > a {
 
 .search-results h2 {
   margin-top: 0; }
+
+#block-current-search-standard {
+  min-height: 2.5em; }
 
 .blog-teaser h3 {
   margin-top: 0;
@@ -6719,14 +6734,18 @@ p > a {
   /*close accordion*/
   background-position: -32px -192px; }
 
-.pane-current-search-clone-of-standard ul {
+.pane-current-search-clone-of-standard ul,
+#block-current-search-standard ul {
   padding-left: 0; }
-.pane-current-search-clone-of-standard li {
+.pane-current-search-clone-of-standard li,
+#block-current-search-standard li {
   display: inline-block; }
-  .pane-current-search-clone-of-standard li .facetapi-active {
+  .pane-current-search-clone-of-standard li .facetapi-active,
+  #block-current-search-standard li .facetapi-active {
     color: #424242;
     font-weight: 400; }
-    .pane-current-search-clone-of-standard li .facetapi-active a {
+    .pane-current-search-clone-of-standard li .facetapi-active a,
+    #block-current-search-standard li .facetapi-active a {
       float: right;
       margin-left: 0.25em; }
 
@@ -6865,7 +6884,8 @@ footer {
 .featured-grey {
   background-color: #f4f4f4; }
   .featured-grey p:last-child {
-    margin-bottom: 2em; }
+    margin-bottom: 2em;
+    margin-left: 4.5em; }
 
 .featured-lessons-title .pane-title, .featured-lessons-title .pane-content {
   display: inline-block; }
@@ -6884,7 +6904,9 @@ footer {
   background-color: rgba(177, 201, 202, 0.93);
   font-weight: 300;
   font-size: 27px; }
-  .views-bootstrap-grid-1 .views-field-field-image .overlay .label, .views-bootstrap-grid-1 .views-field-field-image .overlay .pane-current-search-clone-of-standard li, .pane-current-search-clone-of-standard .views-bootstrap-grid-1 .views-field-field-image .overlay li {
+  .views-bootstrap-grid-1 .views-field-field-image .overlay .label, .views-bootstrap-grid-1 .views-field-field-image .overlay .pane-current-search-clone-of-standard li, .pane-current-search-clone-of-standard .views-bootstrap-grid-1 .views-field-field-image .overlay li,
+  .views-bootstrap-grid-1 .views-field-field-image .overlay #block-current-search-standard li,
+  #block-current-search-standard .views-bootstrap-grid-1 .views-field-field-image .overlay li {
     font-weight: 400; }
 .views-bootstrap-grid-1 .views-field-field-image:hover .overlay, .views-bootstrap-grid-1 .views-field-field-image:focus .overlay {
   display: block; }
@@ -6935,7 +6957,9 @@ footer {
   margin-bottom: -200px; }
 
 .overlay-partner-uta {
-  width: 161px; }
+  width: 161px;
+  margin-right: auto;
+  margin-left: auto; }
 
 .overlay-featured-lesson {
   background-color: rgba(177, 201, 202, 0.83);
