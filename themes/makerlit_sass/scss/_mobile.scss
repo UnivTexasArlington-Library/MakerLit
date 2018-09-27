@@ -35,7 +35,7 @@
 	}
 }
 // MOBILE 1199px or smaller
-@media (min-width: $screen-md-max) {
+@media (max-width: $screen-md-max) {
 	.region-logos-uta img,
 	.region-logos-fb img {
 		max-height: 30px;
@@ -105,11 +105,12 @@
 		right:0;
 		top:0;
 		background-color: rgba(244,244,244,0.75);
+		.carousel-caption-body {
+			padding: 1em;
+			background-color: transparent;
+		}
 	}
-	.carousel-caption-body {
-		padding:0 0.75em;
-		background-color: transparent;
-	}
+	
 }
 
 //MOBILE 768px - 991px

@@ -7013,7 +7013,7 @@ a:hover .overlay, a:focus .overlay {
 @media (min-width: 1200px) {
   .main-container {
     min-height: 31em; } }
-@media (min-width: 1199px) {
+@media (max-width: 1199px) {
   .region-logos-uta img,
   .region-logos-fb img {
     max-height: 30px; }
@@ -7064,10 +7064,9 @@ a:hover .overlay, a:focus .overlay {
     right: 0;
     top: 0;
     background-color: rgba(244, 244, 244, 0.75); }
-
-  .carousel-caption-body {
-    padding: 0 0.75em;
-    background-color: transparent; } }
+    .carousel-caption .carousel-caption-body {
+      padding: 1em;
+      background-color: transparent; } }
 @media (max-width: 767px) {
   body {
     font-size: 16px; }
