@@ -14,6 +14,7 @@
 .carousel-inner img {
 	width: 100% !important;
 	height: auto !important;
+	opacity:0.75;
 }
 .carousel-caption {
 	top:25%;
@@ -22,7 +23,7 @@
 	bottom:auto;
 	.carousel-caption-body {
 		padding:2em;
-		background-color: rgba(255,255,255,0.75);
+		background-color: rgba(255,255,255,0.83);
 		color:$text-color;
 		text-shadow:none;
 		font-weight: 300; 
@@ -85,7 +86,7 @@
 //FEATURED GREY
 .featured-grey {
 	background-color: $brand-info;
-	p:last-child {
+	p {
 		margin-bottom:2em;
 		margin-left:4.5em;
 	}

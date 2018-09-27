@@ -6843,7 +6843,8 @@ footer {
 
 .carousel-inner img {
   width: 100% !important;
-  height: auto !important; }
+  height: auto !important;
+  opacity: 0.75; }
 
 .carousel-caption {
   top: 25%;
@@ -6852,7 +6853,7 @@ footer {
   bottom: auto; }
   .carousel-caption .carousel-caption-body {
     padding: 2em;
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(255, 255, 255, 0.83);
     color: #424242;
     text-shadow: none;
     font-weight: 300;
@@ -6893,7 +6894,7 @@ footer {
 
 .featured-grey {
   background-color: #f4f4f4; }
-  .featured-grey p:last-child {
+  .featured-grey p {
     margin-bottom: 2em;
     margin-left: 4.5em; }
 
@@ -7107,7 +7108,7 @@ a:hover .overlay, a:focus .overlay {
     margin-top: 0.5em; }
 
   .glyphicon-menu-hamburger {
-    font-size: 2.5em; }
+    font-size: 2em; }
 
   .home-row {
     margin-right: 1em;

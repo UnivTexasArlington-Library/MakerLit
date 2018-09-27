@@ -26,7 +26,7 @@
     print $q;
   ?>
 <?php endif; ?>
-<div class="dropdown hidden-xs">
+<div class="dropdown">
   <button id="searchBox" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="btn btn-default dropdown-toggle">
    <span class="glyphicon glyphicon-search"></span>
   </button>
