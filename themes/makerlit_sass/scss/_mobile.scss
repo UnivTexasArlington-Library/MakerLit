@@ -1,4 +1,5 @@
-@media (min-width: 1600px) {
+//MOBILE 1600px or smaller
+@media (max-width: 1600px) {
 	.region-logos-uta,
 	.region-logos-fb {
 		img {
@@ -8,6 +9,7 @@
 	.navbar {
 		.name {
 			font-size: 3.2em;
+			padding-left: 0;
 		}
 		.logo {
 			padding-right:0;
@@ -32,13 +34,8 @@
 		min-height: 31em;
 	}
 }
-@media (min-width: $screen-lg-min) and (max-width: 1600px) {
-
-}
-@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
-	.lead {
-		font-size: 1.05em;
-	}
+// MOBILE 1199px or smaller
+@media (min-width: $screen-md-max) {
 	.region-logos-uta img,
 	.region-logos-fb img {
 		max-height: 30px;
@@ -49,13 +46,34 @@
 			img {
 				max-height: 75px;
 			}
-		}	
-		.name {
-			font-size: 2.8em;
 		}
 	}
 	#block-superfish-1 .nav-justified > li > a {
+		padding:10px 15px;
 		font-size: 1.2em;
+	}
+	.featured-blue, .featured-grey {
+		margin:1.5em 0;
+	}
+	.featured-blue .quote-text {
+		font-size: 1.25em;
+	}
+	a:hover, 
+	a:focus {
+		.overlay-featured-lesson {
+			display: none;
+		}
+	}
+}
+// MOBILE 992px - 1199px
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+	.lead {
+		font-size: 1.05em;
+	}
+	.navbar {
+		.name {
+			font-size: 2.8em;
+		}
 	}
 	.carousel-caption {
 		left:15%;
@@ -65,12 +83,38 @@
 			padding:1.5em;
 		}
 	}
-	a:hover, 
-	a:focus {
-		.overlay {
-			display: none;
+
+}
+//MOBILE 991px or smaller 
+@media (max-width: $screen-sm-max) {
+	.navbar {
+		.logo {
+			padding-right:0;
+			img {
+				max-height: 60px;
+				vertical-align: super;
+			}
+		}	
+		.name {
+			font-size: 2.5em;
 		}
 	}
+	.carousel-caption {
+		position: relative;
+		left:0;
+		right:0;
+		top:0;
+		background-color: rgba(244,244,244,0.75);
+	}
+	.carousel-caption-body {
+		padding:0 0.75em;
+		background-color: transparent;
+	}
+}
+
+//MOBILE 768px - 991px
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+
 }
 // MOBILE 767px or smaller
 @media (max-width: $screen-xs-max)  {
@@ -81,18 +125,5 @@
 	.region-logos-fb img {
 		max-height: 25px;
 	}
-	.navbar {
-		.logo {
-			padding-right:0;
-			img {
-				max-height: 75px;
-			}
-		}	
-		.name {
-			font-size: 2.8em;
-		}
-	}
-
-
 
 }
