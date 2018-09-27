@@ -277,10 +277,11 @@ h2.search-results{
 		@extend .label;
 		@extend .label-info;
 		color:$text-color;
-		font-size: 75%;
+		font-weight: 400;
 		.facetapi-active {
 			color:$text-color;
 			font-weight: 400;
+			font-size: 75%;
 			a {
 				float:right;
 				margin-left:0.25em;
