@@ -99,9 +99,19 @@
 			font-size: 2.5em;
 		}
 	}
-	#block-superfish-1 .nav-justified > li > a {
-		padding:5px;
-		font-size: 1em;
+	#block-superfish-1 {
+		.nav-justified > li > a {
+			padding:5px;
+			font-size: 1em;
+		}
+		li.sf-depth-2 {
+			text-align: center;		
+		}
+		#menu-694-1 a::before,
+		#menu-503-1 a::before, 
+		#menu-469-1 a::before {
+			float:none;
+		}
 	}
 	.carousel-caption {
 		position: relative;
@@ -146,15 +156,18 @@
 }
 // MOBILE 767px or smaller
 @media (max-width: $screen-xs-max)  {
-	body {
+	/*body {
 		font-size: 16px;
-	}
+	}*/
 	.region-logos-uta img,
 	.region-logos-fb img {
 		max-height: 25px;
 	}
 	.navbar .logo {
 		padding-right:1em;
+	}
+	.navbar .name {
+		font-size: 3em;
 	}
 	.sf-accordion-toggle {
 		margin-top:0.5em;
@@ -195,5 +208,19 @@
 	.bootstrap-twocol-stacked .left, .panels-flexible-region-offset_2_9_layout-image .panels-flexible-region-inside-first {
 		padding-right:0;
 	}
-
+	.region-sidebar-first {
+		margin-right: 0;
+	}
+	.page-lesson-plans .bootstrap-twocol-stacked .row:nth-child(1) {
+		margin-right:auto;
+		margin-left:auto;
+	}
+	.node-type-page {
+		.field-name-field-image img {
+			width:100%;
+		}
+		.right {
+			margin-top:1em;
+		}
+	}
 }
