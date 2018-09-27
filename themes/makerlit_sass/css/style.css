@@ -6585,7 +6585,8 @@ p > a {
   /*max-width: 95%;*/ }
   #block-superfish-1 .nav-justified > li > a {
     color: #424242;
-    font-size: 1.25em; }
+    font-size: 1.25em;
+    padding: 10px 30px; }
     #block-superfish-1 .nav-justified > li > a:hover, #block-superfish-1 .nav-justified > li > a:focus {
       color: #783e3c; }
   #block-superfish-1 li.sf-depth-1 {
@@ -6655,7 +6656,7 @@ p > a {
 #views-exposed-form-courses-search-page-1 #edit-submit-courses-search {
   margin-top: 0; }
 
-.search-results h2 {
+h2.search-results {
   margin-top: 0; }
 
 #block-current-search-standard {
@@ -6739,7 +6740,9 @@ p > a {
   padding-left: 0; }
 .pane-current-search-clone-of-standard li,
 #block-current-search-standard li {
-  display: inline-block; }
+  display: inline-block;
+  color: #424242;
+  font-size: 75%; }
   .pane-current-search-clone-of-standard li .facetapi-active,
   #block-current-search-standard li .facetapi-active {
     color: #424242;
@@ -6813,6 +6816,9 @@ p > a {
 .glyphicon-new-window {
   vertical-align: super;
   font-size: 0.75em; }
+
+.partner-page-img {
+  margin-right: 1em; }
 
 footer {
   padding-bottom: 1em;

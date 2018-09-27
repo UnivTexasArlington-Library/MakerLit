@@ -85,6 +85,7 @@ p > a {
 	.nav-justified > li > a {
 		color:$text-color;
 		font-size: 1.25em;
+		padding:10px 30px;
 		&:hover, &:focus {
 			color:$link-color;
 		}
@@ -172,14 +173,13 @@ p > a {
 	}
 }
 // SEARCH RESULTS PAGE
-.search-results {
-	h2 {
-		margin-top:0;
-	}
+h2.search-results{
+	margin-top:0;
 }
 #block-current-search-standard {
 	min-height: 2.5em;
 }
+
 //BLOG POSTS
 .blog-teaser{
 	h3 {
@@ -276,6 +276,8 @@ p > a {
 		display: inline-block;
 		@extend .label;
 		@extend .label-info;
+		color:$text-color;
+		font-size: 75%;
 		.facetapi-active {
 			color:$text-color;
 			font-weight: 400;
@@ -367,6 +369,10 @@ p > a {
 .glyphicon-new-window {
 	vertical-align: super;
 	font-size: 0.75em;
+}
+//PARTNER PAGES
+.partner-page-img {
+	margin-right:1em;
 }
 //FOOTER
 footer {
