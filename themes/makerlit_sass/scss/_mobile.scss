@@ -1,7 +1,39 @@
+@media (min-width: 1600px) {
+	.region-logos-uta,
+	.region-logos-fb {
+		img {
+			max-height: 35px;
+		}
+	}
+	.navbar {
+		.name {
+			font-size: 3.2em;
+		}
+		.logo {
+			padding-right:0;
+		}
+	}
+	.carousel-caption {
+		top:8%;
+	}
+	.carousel-caption-body {
+		padding:1.25em;
+	}
+	.overlay-featured-lesson {
+		height: 135px;
+		bottom:135px;
+		margin-bottom: 135px;
+		padding:0.5em;
+		font-size: 1em;
+	}
+}
 @media (min-width: $screen-lg-min) {
 	.main-container {
 		min-height: 31em;
 	}
+}
+@media (min-width: $screen-lg-min) and (max-width: 1600px) {
+
 }
 @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
 	.lead {

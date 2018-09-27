@@ -6644,7 +6644,9 @@ p > a {
 
 #views-exposed-form-courses-search-page-1 .dropdown-menu {
   min-width: 262px;
-  border-color: #b1c9ca; }
+  border-color: #b1c9ca;
+  right: 0;
+  left: auto; }
 #views-exposed-form-courses-search-page-1 .views-exposed-form .views-exposed-widget {
   padding: 0; }
 #views-exposed-form-courses-search-page-1 .views-exposed-widgets {
@@ -6984,6 +6986,28 @@ footer {
 a:hover .overlay, a:focus .overlay {
   display: block; }
 
+@media (min-width: 1600px) {
+  .region-logos-uta img,
+  .region-logos-fb img {
+    max-height: 35px; }
+
+  .navbar .name {
+    font-size: 3.2em; }
+  .navbar .logo {
+    padding-right: 0; }
+
+  .carousel-caption {
+    top: 8%; }
+
+  .carousel-caption-body {
+    padding: 1.25em; }
+
+  .overlay-featured-lesson {
+    height: 135px;
+    bottom: 135px;
+    margin-bottom: 135px;
+    padding: 0.5em;
+    font-size: 1em; } }
 @media (min-width: 1200px) {
   .main-container {
     min-height: 31em; } }

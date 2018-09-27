@@ -156,6 +156,8 @@ p > a {
 	.dropdown-menu {
 		min-width: 262px;
 		border-color:$brand-primary;
+		right:0;
+		left: auto;
 	}
 	.views-exposed-form .views-exposed-widget {
 		padding:0;
