@@ -99,6 +99,10 @@
 			font-size: 2.5em;
 		}
 	}
+	#block-superfish-1 .nav-justified > li > a {
+		padding:5px;
+		font-size: 1em;
+	}
 	.carousel-caption {
 		position: relative;
 		left:0;
@@ -108,6 +112,7 @@
 		.carousel-caption-body {
 			padding: 1em;
 			background-color: transparent;
+			margin-bottom: 0;
 		}
 	}
 	.featured-blue,
@@ -147,6 +152,41 @@
 	.region-logos-uta img,
 	.region-logos-fb img {
 		max-height: 25px;
+	}
+	.glyphicon-menu-hamburger {
+		font-size: 2em;
+	}
+	.home-row {
+		margin-right: 1em;
+		margin-left: 1em;
+	}
+	.inline-link,
+	.pane-block-8 .pane-content, 
+	.pane-block-9 .pane-content {
+		margin-left: 0;
+	}
+	.featured-blue {
+		img {
+			margin:1em auto 2em auto;
+			float:none;
+		}
+		.quote-text,
+		.views-field-field-partner {
+			margin-right:1em;
+			margin-left: 1em;		
+		}
+	}
+	.featured-grey {
+		img {
+			max-width: 275px;
+		}
+		p {
+			margin-right:1em;
+			margin-left: 1em;
+		}
+	}
+	.bootstrap-twocol-stacked .left, .panels-flexible-region-offset_2_9_layout-image .panels-flexible-region-inside-first {
+		padding-right:0;
 	}
 
 }
