@@ -7066,7 +7066,27 @@ a:hover .overlay, a:focus .overlay {
     background-color: rgba(244, 244, 244, 0.75); }
     .carousel-caption .carousel-caption-body {
       padding: 1em;
-      background-color: transparent; } }
+      background-color: transparent; }
+
+  .featured-blue,
+  .featured-grey {
+    margin: 1em 0; }
+
+  .blog-teaser h3 {
+    font-size: 1.5em; }
+  .blog-teaser .views-field-field-blog-author,
+  .blog-teaser .views-field-created {
+    display: block;
+    font-size: 1.05em; }
+
+  .view-home-partners img {
+    max-height: 100px;
+    width: auto; }
+
+  .overlay-partner {
+    height: 100px;
+    bottom: 100px;
+    margin-bottom: -100px; } }
 @media (max-width: 767px) {
   body {
     font-size: 16px; }

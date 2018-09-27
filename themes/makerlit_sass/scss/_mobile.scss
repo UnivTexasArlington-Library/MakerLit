@@ -110,7 +110,29 @@
 			background-color: transparent;
 		}
 	}
-	
+	.featured-blue,
+	.featured-grey {
+		margin: 1em 0;
+	}
+	.blog-teaser {
+		h3 {
+			font-size: 1.5em;
+		}
+		.views-field-field-blog-author,
+		.views-field-created {
+			display: block;
+			font-size: 1.05em;
+		}
+	}
+	.view-home-partners img {
+		max-height: 100px;
+		width: auto;
+	}
+	.overlay-partner {
+		height: 100px;
+		bottom:100px;
+		margin-bottom:-100px;
+	}
 }
 
 //MOBILE 768px - 991px
