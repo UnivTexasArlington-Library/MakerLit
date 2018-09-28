@@ -6583,7 +6583,7 @@ p > a {
 
 #block-superfish-1 {
   display: inline-block;
-  /*max-width: 95%;*/ }
+  max-width: 95%; }
   #block-superfish-1 .nav-justified > li > a {
     color: #424242;
     font-size: 1.25em;
