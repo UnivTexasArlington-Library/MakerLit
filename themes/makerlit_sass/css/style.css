@@ -1218,10 +1218,10 @@ h6, .h6 {
     font-size: 75%; }
 
 h1, .h1 {
-  font-size: 40px; }
+  font-size: 30px; }
 
 h2, .h2 {
-  font-size: 30px; }
+  font-size: 25px; }
 
 h3, .h3 {
   font-size: 20px; }
@@ -6669,7 +6669,7 @@ h2.search-results {
   margin-top: 0;
   border-bottom: 0.25em dotted #f4f4f4;
   padding-bottom: 0.25em;
-  font-size: 2em; }
+  font-size: 1.5em; }
 .blog-teaser .views-field-field-blog-author {
   margin-right: 0.75em; }
 .blog-teaser .views-field-field-blog-author,
@@ -6701,7 +6701,7 @@ h2.search-results {
   .ui-widget-content a,
   .ui-state-default a {
     text-transform: unset;
-    font-size: 20px; }
+    font-size: 0.9em; }
 
 .ui-accordion .ui-accordion-content {
   padding: 0.5em 0.5em 0.5em 0.7em;
@@ -6857,13 +6857,14 @@ footer {
     color: #424242;
     text-shadow: none;
     font-weight: 300;
-    margin-bottom: 1em; }
+    margin-bottom: 1em;
+    /*p {
+    	text-align: left;
+    }*/ }
     .carousel-caption .carousel-caption-body h3 {
       text-transform: uppercase;
       margin-top: 0;
       font-size: 1em; }
-    .carousel-caption .carousel-caption-body p {
-      text-align: left; }
 
 .featured-blue,
 .featured-grey {
@@ -6940,6 +6941,10 @@ footer {
 .front .blog-teaser {
   margin-top: 2em;
   margin-bottom: 3em; }
+
+.pane-home-partners-panel-pane-4 {
+  margin-left: 6em;
+  margin-right: 6em; }
 
 #partners {
   margin-bottom: 2em;

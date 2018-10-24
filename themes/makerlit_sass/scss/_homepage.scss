@@ -33,9 +33,9 @@
 			margin-top:0;
 			font-size: 1em;
 		}
-		p {
+		/*p {
 			text-align: left;
-		}
+		}*/
 	}
 }
 //FEATURED
@@ -153,6 +153,10 @@
 	}
 }
 // PARTNERS inline-block
+.pane-home-partners-panel-pane-4 {
+	margin-left:6em;
+	margin-right:6em;
+}
 #partners {
 	margin-bottom:2em;
 	h2.pane-title {
