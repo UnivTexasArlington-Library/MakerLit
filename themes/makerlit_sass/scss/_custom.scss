@@ -140,6 +140,9 @@ p > a {
 	}
 }
 // SEACH
+#searchBox::before {
+	content: $font-Flaticon-search;
+}
 #searchBox:hover,
 #searchBox:focus,
 #searchBox:active {
@@ -351,7 +354,12 @@ h2.search-results{
 		}
 	}
 }
-
+// COMPETENCIES
+#competencies {
+	h2 {
+		text-transform: normal;
+	}
+}
 // COURSE INFORMATION PAGES
 .node-type-course-information {
 	.views-field {

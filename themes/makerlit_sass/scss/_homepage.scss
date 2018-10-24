@@ -33,9 +33,6 @@
 			margin-top:0;
 			font-size: 1em;
 		}
-		/*p {
-			text-align: left;
-		}*/
 	}
 }
 //FEATURED
@@ -65,7 +62,7 @@
 		margin-top:1em;
 		margin-right: 2em;
 		float:right;
-		border-image-source: url(/sites/library-test.uta.edu.makerliteracies/files/White-circle.png);
+		border-image-source: url(/sites/library.uta.edu.makerliteracies/files/White-circle.png);
 		border-image-width: 100%;
 		border-image-outset:8px;
 		border-image-slice:50%;
@@ -153,22 +150,19 @@
 	}
 }
 // PARTNERS inline-block
-.pane-home-partners-panel-pane-4 {
-	margin-left:6em;
-	margin-right:6em;
+.pane-home-partners-panel-pane-4.pull-left {
+	margin-left:15em;
 }
+.pane-home-partners-panel-pane-4.pull-right{
+	margin-right:15em;
+}
+
 #partners {
 	margin-bottom:2em;
 	h2.pane-title {
 		margin-bottom:2em;
 	}
-	/*.partner-uta {
-		background-color: $brand-info;
-		border:1px solid #0064b1;
-		padding:10px;
-		height: 85px;
-		width: 260px;
-	}*/
+
 	img {
 		max-height: 200px;
 		width: auto;
