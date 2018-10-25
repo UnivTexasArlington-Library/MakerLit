@@ -6811,7 +6811,7 @@ h2.search-results {
   margin-top: 0; }
 
 #competencies h2 {
-  text-transform: normal; }
+  text-transform: initial; }
 
 .node-type-course-information .views-field {
   margin-bottom: 1em;
