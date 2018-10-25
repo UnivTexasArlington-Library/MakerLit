@@ -58,7 +58,7 @@
 <head>
   <link rel="profile" href="<?php print $grddl_profile; ?>" />
   <link href="https://fonts.googleapis.com/css?family=Muli:300,400,600|Open+Sans|Playfair+Display" rel="stylesheet"> 
-  <link rel="stylesheet" type="text/css" href="../font/flaticon/flaticon.css"> 
+  <!--<link rel="stylesheet" type="text/css" href="../font/flaticon/flaticon.css"> -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
