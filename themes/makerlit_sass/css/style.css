@@ -6633,9 +6633,6 @@ p > a {
     /* Project Personnel */
     content: ""; }
 
-#searchBox::before {
-  content: ""; }
-
 #searchBox:hover,
 #searchBox:focus,
 #searchBox:active {
