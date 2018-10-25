@@ -130,10 +130,10 @@ p > a {
 		/*vertical-align: bottom;*/
 	}
 	#menu-694-1 a::before  { /* About */
-		content: $font-Flaticon-blog;
+		content: $font-Flaticon-info;
 	}
 	#menu-469-1 a::before  { /* Blog */
-		content: $font-Flaticon-info;
+		content: $font-Flaticon-blog;
 	}
 	#menu-503-1 a::before { /* Project Personnel */
 		content: $font-Flaticon-status;
