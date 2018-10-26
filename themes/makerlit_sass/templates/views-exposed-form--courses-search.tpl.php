@@ -28,7 +28,7 @@
 <?php endif; ?>
 <div class="dropdown">
   <button id="searchBox" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="btn btn-default dropdown-toggle">
-    <i class="fi flaticon-search"></i>
+    <i class="glyphicon glyphicon-search"></i>
   </button>
   <ul class="dropdown-menu" aria-labelledby="searchBox">
     <div class="views-exposed-form">
