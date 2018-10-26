@@ -6945,12 +6945,30 @@ footer {
   margin-top: 2em;
   margin-bottom: 3em; }
 
-.pane-home-partners-panel-pane-4.pull-left {
-  margin-left: 15em; }
+@media (min-width: 1600px) {
+  .pane-home-partners-panel-pane-4.pull-left {
+    margin-left: 15em; }
 
-.pane-home-partners-panel-pane-4.pull-right {
-  margin-right: 15em; }
+  .pane-home-partners-panel-pane-4.pull-right {
+    margin-right: 15em; } }
+@media (min-width: 1200px) {
+  .pane-home-partners-panel-pane-4.pull-left {
+    margin-left: 10em; }
 
+  .pane-home-partners-panel-pane-4.pull-right {
+    margin-right: 10em; } }
+@media (min-width: 768px) and (max-width: 1199px) {
+  .pane-home-partners-panel-pane-4.pull-left {
+    margin-left: 6em; }
+
+  .pane-home-partners-panel-pane-4.pull-right {
+    margin-right: 6em; } }
+@media (max-width: 767px) {
+  .pane-home-partners-panel-pane-4.pull-left {
+    margin-left: 3em; }
+
+  .pane-home-partners-panel-pane-4.pull-right {
+    margin-right: 3em; } }
 #partners {
   margin-bottom: 2em; }
   #partners h2.pane-title {
