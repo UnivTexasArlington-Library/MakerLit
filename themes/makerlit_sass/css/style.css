@@ -6817,6 +6817,8 @@ h2.search-results {
 
 #competencies h2 {
   text-transform: initial; }
+#competencies .list-unstyled, #competencies .clear-line-style > ul {
+  padding-left: 1em; }
 
 .node-type-course-information .views-field {
   margin-bottom: 1em;
