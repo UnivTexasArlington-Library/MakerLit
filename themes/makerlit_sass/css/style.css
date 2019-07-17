@@ -6823,6 +6823,8 @@ h2.search-results {
   display: block; }
 .node-type-course-information .field-item {
   line-height: 1.9; }
+.node-type-course-information .list-unstyled, .node-type-course-information .clear-line-style > ul {
+  padding-left: 1em; }
 
 .course-label {
   font-weight: 400;
