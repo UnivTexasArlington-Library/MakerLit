@@ -6588,6 +6588,12 @@ p > a {
   display: inline-block;
   max-width: 95%;
   /* Removing Menu icons, due to additional items under Resources */
+  /*
+  #menu-694-1 a,
+  #menu-694-1 a {
+  	line-height: 2.25em;
+  }
+  /* Removing Menu icons, due to additional items under Resources */
   /*#menu-694-1 a::before,
   #menu-503-1 a::before, 
   #menu-469-1 a::before {
@@ -6631,9 +6637,6 @@ p > a {
       #block-superfish-1 li.sf-depth-2 a:hover, #block-superfish-1 li.sf-depth-2 a:focus, #block-superfish-1 li.sf-depth-2 a .active {
         color: #783e3c;
         text-decoration: none; }
-  #block-superfish-1 #menu-694-1 a,
-  #block-superfish-1 #menu-694-1 a {
-    line-height: 2.25em; }
 
 #searchBox:hover,
 #searchBox:focus,
